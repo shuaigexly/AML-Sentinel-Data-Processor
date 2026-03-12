@@ -2,7 +2,7 @@ export interface NetworkNode {
   id: string;
   name: string;
   value: number;
-  category: number; // 0=normal, 1=suspicious, 2=confirmed-fraud
+  category: number;
   riskScore: number;
   typology?: string;
   itemStyle: { color: string };
@@ -12,10 +12,7 @@ export interface NetworkEdge {
   source: string;
   target: string;
   value: number;
-  lineStyle: {
-    width: number;
-    color: string;
-  };
+  lineStyle: { width: number; color: string };
 }
 
 export interface AmlNetworkData {
@@ -24,64 +21,381 @@ export interface AmlNetworkData {
   categories: Array<{ name: string }>;
 }
 
-// Colors from primary-* scale only
-const COLOR_FRAUD = '#134e4a';      // primary-800
-const COLOR_SUSPICIOUS = '#0d9488'; // primary-500
-const COLOR_NORMAL = '#99f6e4';     // primary-200
-const EDGE_HOT = '#0f766e';         // primary-600
-const EDGE_COLD = '#ccfbf1';        // primary-100
-
 export const amlNetworkData: AmlNetworkData = {
-  categories: [
-    { name: 'Normal' },
-    { name: 'Suspicious' },
-    { name: 'Confirmed Fraud' },
+  "categories": [
+    {
+      "name": "Normal"
+    },
+    {
+      "name": "Suspicious"
+    },
+    {
+      "name": "Confirmed Fraud"
+    }
   ],
-  nodes: [
-    // Fan-out cluster — CASE-001 (ACC-021 is the hub)
-    { id: 'ACC-021', name: 'ACC-021', value: 580000, category: 2, riskScore: 82, typology: 'fan-out hub', itemStyle: { color: COLOR_FRAUD } },
-    { id: 'ACC-009', name: 'ACC-009', value: 68000,  category: 1, riskScore: 62, itemStyle: { color: COLOR_SUSPICIOUS } },
-    { id: 'ACC-033', name: 'ACC-033', value: 47000,  category: 1, riskScore: 58, itemStyle: { color: COLOR_SUSPICIOUS } },
-    { id: 'ACC-044', name: 'ACC-044', value: 41000,  category: 1, riskScore: 54, itemStyle: { color: COLOR_SUSPICIOUS } },
-
-    // Smurfing feeder for ACC-021
-    { id: 'ACC-015', name: 'ACC-015', value: 49500,  category: 2, riskScore: 61, typology: 'smurfing', itemStyle: { color: COLOR_FRAUD } },
-    { id: 'ACC-056', name: 'ACC-056', value: 28000,  category: 1, riskScore: 38, itemStyle: { color: COLOR_SUSPICIOUS } },
-
-    // High-risk country transfer cluster — CASE-002
-    { id: 'ACC-007', name: 'ACC-007', value: 3200000, category: 2, riskScore: 78, typology: 'offshore layering', itemStyle: { color: COLOR_FRAUD } },
-    { id: 'ACC-034', name: 'ACC-034', value: 3200000, category: 1, riskScore: 65, itemStyle: { color: COLOR_SUSPICIOUS } },
-
-    // Rapid-movement cluster — CASE-004
-    { id: 'ACC-003', name: 'ACC-003', value: 850000,  category: 1, riskScore: 68, typology: 'rapid movement', itemStyle: { color: COLOR_SUSPICIOUS } },
-    { id: 'ACC-071', name: 'ACC-071', value: 850000,  category: 1, riskScore: 55, itemStyle: { color: COLOR_SUSPICIOUS } },
-
-    // Normal nodes (for contrast)
-    { id: 'ACC-042', name: 'ACC-042', value: 24000,  category: 0, riskScore: 11, itemStyle: { color: COLOR_NORMAL } },
-    { id: 'ACC-088', name: 'ACC-088', value: 180000, category: 0, riskScore: 14, itemStyle: { color: COLOR_NORMAL } },
-    { id: 'ACC-099', name: 'ACC-099', value: 8500,   category: 0, riskScore:  9, typology: 'cycle entry', itemStyle: { color: COLOR_NORMAL } },
-    { id: 'ACC-120', name: 'ACC-120', value: 15000,  category: 0, riskScore:  7, typology: 'cycle transit', itemStyle: { color: COLOR_NORMAL } },
-    { id: 'ACC-130', name: 'ACC-130', value: 15000,  category: 0, riskScore:  5, typology: 'cycle exit', itemStyle: { color: COLOR_NORMAL } },
+  "nodes": [
+    {
+      "id": "100428660",
+      "name": "100428660",
+      "value": 2728386,
+      "category": 2,
+      "riskScore": 90,
+      "typology": null,
+      "itemStyle": {
+        "color": "#134e4a"
+      }
+    },
+    {
+      "id": "800825340",
+      "name": "800825340",
+      "value": 2728386,
+      "category": 1,
+      "riskScore": 62,
+      "typology": null,
+      "itemStyle": {
+        "color": "#0d9488"
+      }
+    },
+    {
+      "id": "805B716C0",
+      "name": "805B716C0",
+      "value": 203170,
+      "category": 1,
+      "riskScore": 62,
+      "typology": null,
+      "itemStyle": {
+        "color": "#0d9488"
+      }
+    },
+    {
+      "id": "8000F4580",
+      "name": "8000F4580",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "8000F5340",
+      "name": "8000F5340",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "8000EC280",
+      "name": "8000EC280",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "8017BF800",
+      "name": "8017BF800",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "8000EDEC0",
+      "name": "8000EDEC0",
+      "value": 2686,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "80AEF5310",
+      "name": "80AEF5310",
+      "value": 2686,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "8000F4510",
+      "name": "8000F4510",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "8011305D0",
+      "name": "8011305D0",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "8000F4FE0",
+      "name": "8000F4FE0",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "812ED62E0",
+      "name": "812ED62E0",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "80012FD90",
+      "name": "80012FD90",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "812ED6380",
+      "name": "812ED6380",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "80012FE00",
+      "name": "80012FE00",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "805B34210",
+      "name": "805B34210",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "800131B10",
+      "name": "800131B10",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "8131A9A80",
+      "name": "8131A9A80",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "8005F0B50",
+      "name": "8005F0B50",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "810B0FB40",
+      "name": "810B0FB40",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "8005FB700",
+      "name": "8005FB700",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    },
+    {
+      "id": "813600910",
+      "name": "813600910",
+      "value": 1000,
+      "category": 0,
+      "riskScore": 15,
+      "typology": null,
+      "itemStyle": {
+        "color": "#99f6e4"
+      }
+    }
   ],
-  edges: [
-    // Fan-out from ACC-021
-    { source: 'ACC-021', target: 'ACC-009', value: 68000, lineStyle: { width: 3, color: EDGE_HOT } },
-    { source: 'ACC-021', target: 'ACC-033', value: 47000, lineStyle: { width: 2, color: EDGE_HOT } },
-    { source: 'ACC-021', target: 'ACC-044', value: 41000, lineStyle: { width: 2, color: EDGE_HOT } },
-
-    // Feeders into ACC-021 (smurfing)
-    { source: 'ACC-015', target: 'ACC-021', value: 49500, lineStyle: { width: 2, color: EDGE_HOT } },
-    { source: 'ACC-056', target: 'ACC-021', value: 28000, lineStyle: { width: 1, color: EDGE_HOT } },
-
-    // High-risk transfer
-    { source: 'ACC-007', target: 'ACC-034', value: 3200000, lineStyle: { width: 5, color: EDGE_HOT } },
-
-    // Rapid movement
-    { source: 'ACC-003', target: 'ACC-071', value: 850000, lineStyle: { width: 3, color: EDGE_HOT } },
-
-    // Normal flows
-    { source: 'ACC-042', target: 'ACC-088', value: 180000, lineStyle: { width: 1, color: EDGE_COLD } },
-    { source: 'ACC-099', target: 'ACC-120', value: 8500,   lineStyle: { width: 1, color: EDGE_COLD } },
-    { source: 'ACC-120', target: 'ACC-130', value: 15000,  lineStyle: { width: 1, color: EDGE_COLD } },
-  ],
+  "edges": [
+    {
+      "source": "100428660",
+      "target": "800825340",
+      "value": 2728386,
+      "lineStyle": {
+        "width": 5,
+        "color": "#0f766e"
+      }
+    },
+    {
+      "source": "100428660",
+      "target": "805B716C0",
+      "value": 203170,
+      "lineStyle": {
+        "width": 5,
+        "color": "#0f766e"
+      }
+    },
+    {
+      "source": "8000F4580",
+      "target": "8000F5340",
+      "value": 1000,
+      "lineStyle": {
+        "width": 1,
+        "color": "#ccfbf1"
+      }
+    },
+    {
+      "source": "8000EC280",
+      "target": "8017BF800",
+      "value": 1000,
+      "lineStyle": {
+        "width": 1,
+        "color": "#ccfbf1"
+      }
+    },
+    {
+      "source": "8000EDEC0",
+      "target": "80AEF5310",
+      "value": 2686,
+      "lineStyle": {
+        "width": 1,
+        "color": "#ccfbf1"
+      }
+    },
+    {
+      "source": "8000F4510",
+      "target": "8011305D0",
+      "value": 1000,
+      "lineStyle": {
+        "width": 1,
+        "color": "#ccfbf1"
+      }
+    },
+    {
+      "source": "8000F4FE0",
+      "target": "812ED62E0",
+      "value": 1000,
+      "lineStyle": {
+        "width": 1,
+        "color": "#ccfbf1"
+      }
+    },
+    {
+      "source": "80012FD90",
+      "target": "812ED6380",
+      "value": 1000,
+      "lineStyle": {
+        "width": 1,
+        "color": "#ccfbf1"
+      }
+    },
+    {
+      "source": "80012FE00",
+      "target": "805B34210",
+      "value": 1000,
+      "lineStyle": {
+        "width": 1,
+        "color": "#ccfbf1"
+      }
+    },
+    {
+      "source": "800131B10",
+      "target": "8131A9A80",
+      "value": 1000,
+      "lineStyle": {
+        "width": 1,
+        "color": "#ccfbf1"
+      }
+    },
+    {
+      "source": "8005F0B50",
+      "target": "810B0FB40",
+      "value": 1000,
+      "lineStyle": {
+        "width": 1,
+        "color": "#ccfbf1"
+      }
+    },
+    {
+      "source": "8005FB700",
+      "target": "813600910",
+      "value": 1000,
+      "lineStyle": {
+        "width": 1,
+        "color": "#ccfbf1"
+      }
+    }
+  ]
 };
