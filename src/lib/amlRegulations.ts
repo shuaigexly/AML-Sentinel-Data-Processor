@@ -2,7 +2,7 @@ export type RegulationSource =
   | 'aml_law_2024'
   | 'kpmg_analysis'
   | 'fatf_china_2019'
-  | 'camlmac_report';
+  | 'pboc_reporting_rules';
 
 export interface RegulationChunk {
   id: string;
@@ -15,217 +15,532 @@ export interface RegulationChunk {
 }
 
 export const amlRegulations: RegulationChunk[] = [
+  // ── 反洗钱法 2024 ────────────────────────────────────────────────────────────
   {
     id: 'REG-001',
     source: 'aml_law_2024',
-    sourceTitle: '中华人民共和国反洗钱法（2024年修订）',
-    article: '第三十一条',
-    text: '金融机构应当按照规定向中国人民银行或者其分支机构报告大额交易和可疑交易。单笔或者当日累计现金收付金额超过人民币五万元的，应当报告大额现金交易；单笔或者当日累计转账金额超过人民币二百万元的，应当报告大额转账交易。',
-    keywords: ['大额现金', '现金交易', '五万元', '大额转账', '二百万元', '报告义务', '人民银行', '申报阈值'],
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第一条',
+    text: '为预防洗钱活动、遏制相关犯罪、规范反洗钱工作，维护金融秩序和国家安全，制定本法。本法自2025年1月1日起施行，取代2006年版反洗钱法。',
+    keywords: ['预防', '洗钱', '金融秩序', '国家安全', '反洗钱', '2025年'],
     lang: 'zh',
   },
   {
     id: 'REG-002',
     source: 'aml_law_2024',
-    sourceTitle: '中华人民共和国反洗钱法（2024年修订）',
-    article: '第三十三条',
-    text: '金融机构发现可疑交易的，应当在五个工作日内向中国反洗钱监测分析中心报告。情形紧急的，应当立即报告。金融机构不得以任何形式向当事人或者其他人员泄露已经提交可疑交易报告的事实及其内容。',
-    keywords: ['可疑交易', '五个工作日', '报告时限', 'CAMLMAC', '中国反洗钱监测分析中心', '立即报告', '紧急上报', '保密要求'],
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第二条',
+    text: '反洗钱是指预防通过各种方式掩饰、隐瞒毒品犯罪、黑社会性质组织犯罪、恐怖活动犯罪、走私犯罪、贪污贿赂犯罪、破坏金融管理秩序犯罪、金融诈骗犯罪等犯罪所得及其收益的来源和性质的洗钱活动所采取的措施。',
+    keywords: ['掩饰', '隐瞒', '犯罪所得', '贪污贿赂', '毒品', '恐怖活动', '洗钱定义'],
     lang: 'zh',
   },
   {
     id: 'REG-003',
     source: 'aml_law_2024',
-    sourceTitle: '中华人民共和国反洗钱法（2024年修订）',
-    article: '第五条',
-    text: '政策性银行、商业银行、证券公司、基金管理公司、保险公司、信托公司等机构属于反洗钱义务机构，应当履行客户身份识别、交易记录保存和报告义务。',
-    keywords: ['义务机构', '商业银行', '证券公司', '保险公司', '信托公司', '适用范围'],
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第二十七条',
+    text: '金融机构应当建立健全反洗钱内部控制制度，设立专门负责反洗钱工作的部门或者岗位，配备与其业务规模和风险状况相适应的反洗钱人员，制定统一的客户风险分级管理标准，持续开展反洗钱培训，并定期对反洗钱工作进行内部审计。',
+    keywords: ['内部控制', '反洗钱部门', '风险分级', '培训', '内部审计', '客户风险'],
     lang: 'zh',
   },
   {
     id: 'REG-004',
     source: 'aml_law_2024',
-    sourceTitle: '中华人民共和国反洗钱法（2024年修订）',
+    sourceTitle: '反洗钱法（2024修订）',
     article: '第二十八条',
-    text: '反洗钱义务机构应当建立健全客户身份识别制度，在建立业务关系或者提供规定金额以上一次性金融服务时，核验客户和受益所有人的真实身份，并留存相关资料。',
-    keywords: ['客户身份识别', '受益所有人', 'KYC', '身份核验', '留存资料', '尽职调查'],
+    text: '金融机构不得为身份不明的客户提供服务，不得为客户开立匿名账户或者假名账户，不得与身份不明的金融机构建立代理行关系。',
+    keywords: ['身份不明', '匿名账户', '假名账户', '代理行', '禁止'],
     lang: 'zh',
   },
   {
     id: 'REG-005',
     source: 'aml_law_2024',
-    sourceTitle: '中华人民共和国反洗钱法（2024年修订）',
-    article: '第五十三条',
-    text: '反洗钱义务机构未按照规定报告大额交易或者可疑交易的，由有关主管部门责令限期改正，并可处以罚款；情节严重的，可以对直接责任人员采取行政处罚。',
-    keywords: ['处罚', '罚款', '未按规定报告', '行政处罚', '整改要求'],
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第二十九条',
+    text: '金融机构应当在建立业务关系或者提供规定的服务、产品时，识别并采取合理措施核实客户及其受益所有人身份，了解并登记客户的基本情况和交易目的，建立客户尽职调查制度。对洗钱风险较高的客户和交易应当采取增强尽职调查措施。',
+    keywords: ['客户尽职调查', 'CDD', '受益所有人', '核实身份', '增强尽职调查', '业务关系'],
     lang: 'zh',
   },
   {
     id: 'REG-006',
-    source: 'kpmg_analysis',
-    sourceTitle: 'KPMG China New AML Law Analysis (2025)',
-    article: 'Section 2: Key Changes',
-    text: 'The 2024 AML Law revision expands the scope of obligated entities, strengthens beneficial ownership verification, and sharply increases institutional penalties for reporting failures.',
-    keywords: ['beneficial ownership', 'obligated entities', 'penalties', 'scope expansion', 'reporting failures'],
-    lang: 'en',
+    source: 'aml_law_2024',
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第三十条',
+    text: '金融机构在与客户存续业务关系期间，应当持续关注并评估客户整体状况及其交易情况，核实客户及受益所有人信息是否与实际情况一致。对高洗钱风险客户应当定期重新开展尽职调查，必要时对账户采取限制措施。',
+    keywords: ['持续监控', '客户状况', '高风险客户', '尽职调查', '定期', '账户限制'],
+    lang: 'zh',
   },
   {
     id: 'REG-007',
-    source: 'kpmg_analysis',
-    sourceTitle: 'KPMG China New AML Law Analysis (2025)',
-    article: 'Section 3: Compliance Implications',
-    text: 'Institutions should review their STR workflows against the five-business-day filing requirement, update customer risk models, and reinforce controls against tipping off clients.',
-    keywords: ['STR workflow', 'five-business-day', 'filing requirement', 'customer risk model', 'tipping-off'],
-    lang: 'en',
+    source: 'aml_law_2024',
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第三十一条',
+    text: '客户由他人代理办理业务的，金融机构应当按照规定核实代理关系，识别并核实代理人的身份。金融机构与客户订立人身保险、信托等合同，合同的受益人不是客户本人的，金融机构应当识别并核实受益人的身份。',
+    keywords: ['代理人', '受益人', '核实', '身份', '信托', '人身保险'],
+    lang: 'zh',
   },
   {
     id: 'REG-008',
-    source: 'fatf_china_2019',
-    sourceTitle: 'FATF China Mutual Evaluation Report 2019',
-    article: 'Immediate Outcome 5',
-    text: 'China has a broadly developed AML/CFT framework, but effectiveness gaps remain in beneficial ownership transparency and enhanced due diligence for higher-risk customers.',
-    keywords: ['beneficial ownership', 'transparency', 'enhanced due diligence', 'higher-risk customers'],
-    lang: 'en',
+    source: 'aml_law_2024',
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第三十四条',
+    text: '金融机构应当按照规定建立客户身份资料和交易记录保存制度。客户身份资料在业务关系结束后、客户交易信息在交易结束后，应当至少保存十年。存档资料应以可检索、可读取的方式存储，确保监管机构调查时可立即提取。',
+    keywords: ['记录保存', '十年', '客户身份', '交易记录', '存档', '可检索'],
+    lang: 'zh',
   },
   {
     id: 'REG-009',
-    source: 'fatf_china_2019',
-    sourceTitle: 'FATF China Mutual Evaluation Report 2019',
-    article: 'Immediate Outcome 7',
-    text: 'The report notes underutilization of suspicious transaction reports in proactive money-laundering investigations and delays in the handoff from STR intelligence to case development.',
-    keywords: ['STR', 'investigations', 'underutilization', 'case development', 'financial intelligence'],
-    lang: 'en',
+    source: 'aml_law_2024',
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第三十五条',
+    text: '金融机构应当按照规定执行大额交易报告制度和可疑交易报告制度，及时向反洗钱监测分析机构提交大额交易报告和可疑交易报告。制定并不断优化可疑交易监测标准，有效识别、分析可疑交易活动。',
+    keywords: ['大额交易报告', '可疑交易报告', 'STR', '监测分析', 'CAMLMAC', '报告义务'],
+    lang: 'zh',
   },
   {
     id: 'REG-010',
-    source: 'camlmac_report',
-    sourceTitle: 'CAMLMAC AML Stability Report 2023',
-    article: 'Section 1: Reporting Statistics',
-    text: 'CAMLMAC reported that cross-border transfers to high-risk jurisdictions, repeated cash transactions below thresholds, and rapid fund movement remained leading suspicious reporting triggers in 2023.',
-    keywords: ['CAMLMAC', 'reporting statistics', 'cross-border', 'structuring', 'rapid movement'],
+    source: 'aml_law_2024',
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第三十六条',
+    text: '金融机构应当在反洗钱行政主管部门的指导下，关注、评估运用新技术、新产品、新业务模式（包括互联网金融、虚拟资产、人工智能等）带来的洗钱风险，根据情形采取相应措施，降低洗钱风险。',
+    keywords: ['新技术', '虚拟资产', '互联网金融', '人工智能', '新风险', '科技洗钱'],
+    lang: 'zh',
+  },
+  {
+    id: 'REG-011',
+    source: 'aml_law_2024',
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第三十七条',
+    text: '在境内外设有分支机构或者控股其他金融机构的金融机构，以及金融控股公司，应当在总部或者集团层面统筹安排反洗钱工作，建立集团层面统一适用的反洗钱政策，将国内反洗钱要求延伸适用至境外分支机构。',
+    keywords: ['集团', '境外分支', '金融控股', '统一政策', '跨境'],
+    lang: 'zh',
+  },
+  {
+    id: 'REG-012',
+    source: 'aml_law_2024',
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第三十八条',
+    text: '与金融机构存在业务关系的单位和个人应当配合金融机构的客户尽职调查，提供真实有效的身份证件及相关资料。单位和个人拒不配合的，金融机构可以采取限制或者拒绝办理业务措施，并不得因此承担法律责任。',
+    keywords: ['配合义务', '提供资料', '限制业务', '拒绝服务', '客户合作'],
+    lang: 'zh',
+  },
+  {
+    id: 'REG-013',
+    source: 'aml_law_2024',
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第四十条',
+    text: '任何单位和个人应当按照国家有关机关要求对特别预防名单所列对象采取反洗钱特别预防措施，包括立即停止向名单所列对象提供金融服务，冻结其资金或者资产，并向主管部门报告。',
+    keywords: ['特别预防措施', '名单', '冻结', '制裁', '资产冻结', '恐怖融资'],
+    lang: 'zh',
+  },
+  {
+    id: 'REG-014',
+    source: 'aml_law_2024',
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第四十二条',
+    text: '特定非金融机构（房地产中介、律师事务所、会计师事务所、公司服务提供商等）在从事规定的特定业务时，参照本章关于金融机构的相关规定，根据行业特点、经营规模、洗钱风险状况履行反洗钱义务。此为2024年新增核心条款。',
+    keywords: ['特定非金融机构', 'DNFBP', '房地产中介', '律师', '会计师', '公司服务'],
+    lang: 'zh',
+  },
+  {
+    id: 'REG-015',
+    source: 'aml_law_2024',
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第五十一条',
+    text: '金融机构违反本法，未按规定建立内部控制制度或者未履行客户尽职调查义务的，由反洗钱行政主管部门责令改正，处二十万元以上二百万元以下罚款；情节严重的，可以责令停业整顿、吊销许可证。',
+    keywords: ['罚款', '行政处罚', '停业整顿', '吊销许可证', '违反', '二百万'],
+    lang: 'zh',
+  },
+  {
+    id: 'REG-016',
+    source: 'aml_law_2024',
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第五十五条',
+    text: '金融机构未按规定报告大额交易或者可疑交易的，由反洗钱行政主管部门责令改正，处涉及金额百分之二十以上二倍以下罚款。泄露可疑交易报告信息的，从重处罚，情节严重的追究刑事责任。',
+    keywords: ['未报告', 'STR', '大额交易', '罚款', '比例罚款', '保密', '刑事责任'],
+    lang: 'zh',
+  },
+  {
+    id: 'REG-017',
+    source: 'aml_law_2024',
+    sourceTitle: '反洗钱法（2024修订）',
+    article: '第六十三条',
+    text: '本法所称金融机构，包括政策性银行、商业银行、农村信用合作社、邮政储汇机构、信托投资公司、股票公司、期货公司、保险公司、外汇指定银行以及国务院金融监督管理机构依法认可的其他从事金融业务的机构。',
+    keywords: ['金融机构', '商业银行', '保险', '证券', '期货', '信托', '定义范围'],
+    lang: 'zh',
+  },
+
+  // ── 大额交易和可疑交易报告管理办法 2016 ─────────────────────────────────────
+  {
+    id: 'REG-018',
+    source: 'pboc_reporting_rules',
+    sourceTitle: '金融机构大额交易和可疑交易报告管理办法（2016）',
+    article: '第五条',
+    text: '金融机构应当报告下列大额交易：现金收付，单笔或当日累计人民币五万元以上或外币等值一万美元以上；非自然人客户账户之间划转，单笔或当日累计人民币二百万元以上或外币等值二十万美元以上。',
+    keywords: ['大额交易', '五万元', '二百万', '现金', '划转', '报告标准', '阈值'],
+    lang: 'zh',
+  },
+  {
+    id: 'REG-019',
+    source: 'pboc_reporting_rules',
+    sourceTitle: '金融机构大额交易和可疑交易报告管理办法（2016）',
+    article: '第五条（续）',
+    text: '自然人客户境内账户之间划转，单笔或当日累计人民币五十万元以上或外币等值十万美元以上；自然人客户跨境划转，单笔或当日累计人民币二十万元以上或外币等值一万美元以上。',
+    keywords: ['自然人', '境内划转', '五十万', '跨境', '二十万', '外币', '大额标准'],
+    lang: 'zh',
+  },
+  {
+    id: 'REG-020',
+    source: 'pboc_reporting_rules',
+    sourceTitle: '金融机构大额交易和可疑交易报告管理办法（2016）',
+    article: '第八条',
+    text: '金融机构应当在大额交易发生之日起五个工作日内，以电子方式向中国反洗钱监测分析中心提交大额交易报告。金融机构内部应指定专门人员负责报告质量审核。',
+    keywords: ['五个工作日', '大额交易报告', '电子提交', 'CAMLMAC', '报告期限', '工作日'],
+    lang: 'zh',
+  },
+  {
+    id: 'REG-021',
+    source: 'pboc_reporting_rules',
+    sourceTitle: '金融机构大额交易和可疑交易报告管理办法（2016）',
+    article: '第十一条',
+    text: '金融机构发现或者有合理理由怀疑客户的交易活动与洗钱、恐怖融资相关，不论涉及金额大小，均应当报告可疑交易。可疑交易监测标准由金融机构根据本机构业务特点自行制定，并不断优化。',
+    keywords: ['可疑交易', '不论金额', '怀疑', '洗钱', '恐怖融资', '监测标准', 'STR'],
+    lang: 'zh',
+  },
+  {
+    id: 'REG-022',
+    source: 'pboc_reporting_rules',
+    sourceTitle: '金融机构大额交易和可疑交易报告管理办法（2016）',
+    article: '第十五条',
+    text: '金融机构发现可疑交易后，应当按照本机构程序确认后及时提交报告，最迟不超过五个工作日。情况紧急的，如涉及恐怖融资或洗钱金额特别巨大的，应当在确认后立即报告。',
+    keywords: ['可疑交易报告', '五个工作日', '紧急报告', '立即', 'STR期限', '报告时限'],
+    lang: 'zh',
+  },
+  {
+    id: 'REG-023',
+    source: 'pboc_reporting_rules',
+    sourceTitle: '金融机构大额交易和可疑交易报告管理办法（2016）',
+    article: '第二十一条',
+    text: '金融机构应当将大额交易报告和可疑交易报告及相关资料，自生成之日起至少保存十年。相关记录应包含原始交易凭证、客户身份证明文件及分析判断依据，以备监管机构核查。',
+    keywords: ['保存十年', '报告记录', '交易凭证', '保留义务', '核查', '档案管理'],
+    lang: 'zh',
+  },
+  {
+    id: 'REG-024',
+    source: 'pboc_reporting_rules',
+    sourceTitle: '金融机构大额交易和可疑交易报告管理办法（2016）',
+    article: '第十二条',
+    text: '以下情形金融机构可以不报告大额交易：同业拆借；金融机构在黄金市场上的黄金交易；金融机构内部的资金调拨；经国务院金融监督管理机构批准的其他情形。',
+    keywords: ['豁免', '同业拆借', '黄金市场', '内部调拨', '免报', '例外情形'],
+    lang: 'zh',
+  },
+  {
+    id: 'REG-025',
+    source: 'pboc_reporting_rules',
+    sourceTitle: '金融机构大额交易和可疑交易报告管理办法（2016）',
+    article: '第三十条',
+    text: '本办法自2017年7月1日起施行。2006年11月14日中国人民银行发布的《金融机构大额交易和可疑交易报告管理办法》（中国人民银行令〔2006〕第2号）同时废止。',
+    keywords: ['施行日期', '2017年', '废止', '旧办法', '生效'],
+    lang: 'zh',
+  },
+
+  // ── KPMG China New AML Law Analysis 2025 ──────────────────────────────────
+  {
+    id: 'REG-026',
+    source: 'kpmg_analysis',
+    sourceTitle: "KPMG China: China's New AML Law (January 2025)",
+    article: 'DNFBPs Coverage',
+    text: "One of the most notable changes in the new AML law is applying AML obligations to Designated Non-Financial Businesses and Professions (DNFBPs). DNFBPs — such as real estate agents, lawyers, accountants, and company service providers — are now required to implement the same AML measures as financial institutions, addressing a longstanding gap in China's regulatory regime.",
+    keywords: ['DNFBP', 'real estate', 'lawyers', 'accountants', 'company service providers', 'AML obligations', 'coverage'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-027',
+    source: 'kpmg_analysis',
+    sourceTitle: "KPMG China: China's New AML Law (January 2025)",
+    article: 'Penalty Framework',
+    text: "China's AML penalty framework received a 'partial compliance' rating in FATF's fourth-round mutual evaluation. Under the new law, penalty amounts will increase. The broadening of penalty circumstances — insufficient resources for AML functions, lack of independent testing, ineffective transaction monitoring — adds significant weight to consequences of noncompliance.",
+    keywords: ['penalty', 'partial compliance', 'FATF', 'transaction monitoring', 'enforcement', 'noncompliance', 'sanctions'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-028',
+    source: 'kpmg_analysis',
+    sourceTitle: "KPMG China: China's New AML Law (January 2025)",
+    article: 'Lists Screening',
+    text: "Preventive measures are now a central pillar of China's AML framework. Mandatory lists screening requires all entities and individuals — not just AML-regulated entities — to screen State-issued lists related to terrorism, targeted financial sanctions, and significant money laundering risks. These measures aim to prevent financial transactions or asset transfers linked to listed subjects.",
+    keywords: ['lists screening', 'sanctions', 'terrorism', 'targeted financial sanctions', 'mandatory', 'asset freeze', 'preventive measures'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-029',
+    source: 'kpmg_analysis',
+    sourceTitle: "KPMG China: China's New AML Law (January 2025)",
+    article: 'UBO Registry',
+    text: "To combat illicit activities such as shell companies and nested shareholdings, the new AML Law mandates the establishment of a national Ultimate Beneficial Ownership (UBO) registry. Filing entities are required to register UBO information consolidated into a centralised database managed by the PBOC. The UBO definition incorporates both owners and controllers of legal persons.",
+    keywords: ['UBO', 'beneficial ownership', 'registry', 'shell company', 'PBOC', 'transparency', 'legal persons'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-030',
+    source: 'kpmg_analysis',
+    sourceTitle: "KPMG China: China's New AML Law (January 2025)",
+    article: 'Implementation Challenges',
+    text: "The PBOC is expected to release a dozen new or amended implementing regulations covering KYC trigger scenarios, UBO requirements, and DNFBP obligations. Challenges persist in applying robust AML measures under the risk-based approach, balancing regulatory expectations with operational efficiency. Institutions must prepare for additional layers of compliance.",
+    keywords: ['implementation', 'KYC', 'risk-based approach', 'PBOC', 'regulations', 'compliance challenge', 'operational efficiency'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-031',
+    source: 'kpmg_analysis',
+    sourceTitle: "KPMG China: China's New AML Law (January 2025)",
+    article: 'Data Governance',
+    text: "Leading financial institutions are focusing on data lineage and governance — building transparent, traceable data flows for transaction monitoring. Efforts include: checking completeness of customer identification data, integrating customer data for customer-level controls, establishing AML-specific data marts, and resolving transactional data discrepancies from internal accounts and third-party batch settlements.",
+    keywords: ['data governance', 'transaction monitoring', 'customer data', 'data lineage', 'AML system', 'batch settlement'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-032',
+    source: 'kpmg_analysis',
+    sourceTitle: "KPMG China: China's New AML Law (January 2025)",
+    article: 'Continuous KYC',
+    text: "Institutions are overhauling KYC frameworks, moving beyond static onboarding checks to continuous customer due diligence across the entire relationship lifecycle. Implementing in-depth KYC for high-risk customers — understanding business purpose and corroborating sources of wealth — and achieving dynamic ongoing monitoring requires advanced technologies including big-data analytics.",
+    keywords: ['KYC', 'continuous monitoring', 'high risk customer', 'source of wealth', 'onboarding', 'dynamic', 'big data'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-033',
+    source: 'kpmg_analysis',
+    sourceTitle: "KPMG China: China's New AML Law (January 2025)",
+    article: 'Individual Accountability',
+    text: "Individual accountability has been reinforced under the new law. A diligence exemption principle has been introduced to guide institutions toward good-faith compliance. Senior managers of financial institutions and DNFBPs may be held personally liable for systematic AML failures, including failure to allocate sufficient resources or establish effective monitoring.",
+    keywords: ['individual accountability', 'senior manager', 'personal liability', 'diligence exemption', 'good faith', 'compliance culture'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-034',
+    source: 'kpmg_analysis',
+    sourceTitle: "KPMG China: China's New AML Law (January 2025)",
+    article: 'FATF Alignment',
+    text: "China's 2024 AML Law amendment reflects a focused effort to align with FATF standards, particularly addressing gaps identified in the 2019 Mutual Evaluation: no coverage of DNFBPs, weak beneficial ownership transparency, and limited STR effectiveness. The law marks a step toward achieving higher FATF technical compliance ratings in the next evaluation round.",
+    keywords: ['FATF', 'alignment', 'mutual evaluation', '2019', 'technical compliance', 'DNFBP gap', 'beneficial ownership'],
+    lang: 'en',
+  },
+
+  // ── FATF / IMF China MER 2019 ────────────────────────────────────────────
+  {
+    id: 'REG-035',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'Effectiveness Ratings Overview',
+    text: "China's 2019 FATF Mutual Evaluation rated effectiveness as: IO.1 Risk & Coordination — Substantial; IO.2 International Cooperation — Moderate; IO.3 Supervision — Moderate; IO.4 Preventive Measures — Low; IO.5 Legal Persons & Arrangements — Low; IO.6 Financial Intelligence — Moderate. Low ratings reflect the absence of DNFBP supervision and beneficial ownership gaps.",
+    keywords: ['effectiveness rating', 'IO.1', 'IO.3', 'IO.4', 'IO.5', 'substantial', 'moderate', 'low', 'supervision'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-036',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'IO.4 Preventive Measures — Low',
+    text: "China's preventive measures effectiveness was rated Low. Financial institutions have a satisfactory understanding of AML/CFT obligations but have not developed sufficient understanding of risks. Measures implemented are generally not commensurate with different risk situations. DNFBPs generally do not apply AML measures; reporting of suspicious transactions by DNFBPs is virtually nonexistent.",
+    keywords: ['preventive measures', 'low rating', 'DNFBP', 'risk understanding', 'STR', 'suspicious transaction', 'effectiveness'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-037',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'IO.5 Beneficial Ownership — Low',
+    text: "Beneficial ownership (BO) of legal entities is not publicly available in China. Basic information is accessible online but is not always accurate and can be circumvented through straw persons. BO information relying on CDD data collected by financial institutions and law enforcement powers each pose significant challenges. The absence of a BO registry is a significant vulnerability.",
+    keywords: ['beneficial ownership', 'BO registry', 'straw person', 'transparency', 'legal persons', 'shell company', 'low rating'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-038',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'Technical Compliance — DNFBPs Non-Compliant',
+    text: "Technical compliance ratings for DNFBP-related Recommendations: R.22 (DNFBPs: Customer Due Diligence) — Non-Compliant (NC); R.23 (DNFBPs: Other Measures) — Non-Compliant (NC); R.24 (Transparency and BO of Legal Persons) — Non-Compliant (NC); R.25 (BO of Legal Arrangements) — Non-Compliant (NC). These four NC ratings represent the most critical gaps in China's AML/CFT framework.",
+    keywords: ['R.22', 'R.23', 'R.24', 'R.25', 'non-compliant', 'NC', 'DNFBP', 'beneficial ownership', 'technical compliance'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-039',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'STR Reporting Analysis',
+    text: "Inconsistent practices of reporting suspicious transactions raise the risk of tipping-off. Types of proceeds reported in STRs seem inconsistent with the risk environment and are concentrated in the banking sector. The number of STRs reported appears modest considering the size of China's financial sector. Online lending institutions show limited to no implementation of preventive measures.",
+    keywords: ['STR', 'suspicious transaction report', 'tipping off', 'banking sector', 'online lending', 'reporting quality', 'modest'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-040',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'Illicit Proceeds and ML Risk',
+    text: "A large amount of illicit proceeds flows out of China annually. Between 2014 and 2016, illicit proceeds totaling RMB 8.64 billion were repatriated to China from over 90 countries. China indicates that illicit proceeds also flow out through underground banking operations. The abuse of legal persons and nominee shareholders has been identified as a primary method of laundering illicit proceeds.",
+    keywords: ['illicit proceeds', 'underground banking', 'RMB 8.64 billion', 'repatriation', 'nominee shareholder', 'money laundering', 'capital flight'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-041',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'FIU Structure and Limitations',
+    text: "China's FIU has three components: CAMLMAC and AMLB at the central level and AML units within 36 PBC provincial branches. The decentralized structure limits the FIU's ability to properly analyze and spontaneously share accurate and timely financial intelligence. Analysis by various FIU components prevents development of a holistic view of money laundering risks.",
+    keywords: ['FIU', 'CAMLMAC', 'AMLB', 'provincial branches', 'decentralized', 'financial intelligence', 'analysis', 'dissemination'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-042',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'IO.3 Supervision — Moderate',
+    text: "The PBC has had a moderate impact on financial institutions' compliance and risk management processes. Sector supervisors play a supportive role but their impact is lower as they are mostly limited to assessment of risk controls. There is no discernible impact on the online lending sector. In DNFBP sectors, the PBC and sector regulators have had low to nonexistent impact on ML/TF risk awareness.",
+    keywords: ['supervision', 'PBC', 'online lending', 'DNFBP supervision', 'moderate', 'sector supervisors', 'compliance'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-043',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'Priority Actions — Recommended',
+    text: "Priority recommended actions for China: (1) Expand NRA information sources beyond predicate offense data; (2) Centralize FIU databases across all 36 provincial components; (3) Introduce effective DNFBP supervision; (4) Ensure competent authorities can obtain accurate and current beneficial ownership information; (5) Increase spontaneous requests to foreign counterparts and reduce MLA response times.",
+    keywords: ['NRA', 'priority action', 'FIU reform', 'DNFBP', 'beneficial ownership', 'MLA', 'international cooperation', 'recommended actions'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-044',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'IO.1 National Coordination — Substantial',
+    text: "China has demonstrated strong cooperation at the political and policy-setting levels. The Anti-Money Laundering Joint Ministerial Conference (AMLJMC), established in 2002, comprises 23 government departments. The AMLJMC formulates AML/CFT policies, coordinates government departments, and is held accountable through the national audit process.",
+    keywords: ['AMLJMC', 'national coordination', 'substantial', 'inter-ministerial', 'policy', '23 departments', 'audit'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-045',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'ML Prosecution — IO.7',
+    text: "The majority of ML convictions in China have been secured under Art. 312 of the Criminal Law, which also criminalizes receiving stolen property. ML prosecutions largely relate to family and close associates of predicate offenders. The assessment team noted challenges in establishing the 'knowledge' element that funds or property were derived from crime for ML convictions.",
+    keywords: ['ML prosecution', 'Article 312', 'criminal law', 'conviction', 'knowledge element', 'predicate offense', 'stolen property'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-046',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'Predicate Offenses',
+    text: "China's National Risk Assessment (NRA) identified illegal fundraising as the highest proceeds-generating crime. Other major predicate offenses include corruption and bribery, drug trafficking, fraud, and tax evasion. China's decentralized investigation model means provincial and local agencies conduct the majority of ML and predicate offense investigations.",
+    keywords: ['predicate offense', 'illegal fundraising', 'corruption', 'NRA', 'national risk assessment', 'drug trafficking', 'fraud'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-047',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'Technical Compliance Ratings Summary',
+    text: "Key technical compliance ratings: R.1 Risk-Based Approach — LC; R.3 ML Offense — PC; R.10 Customer Due Diligence — LC; R.12 Politically Exposed Persons — PC; R.20 STR Reporting — LC; R.21 Tipping-off — LC; R.26 Supervision — LC; R.35 Sanctions — PC; R.37 Mutual Legal Assistance — LC. Partially Compliant ratings indicate areas requiring significant legislative improvements.",
+    keywords: ['technical compliance', 'R.1', 'R.10', 'R.12', 'R.20', 'PEP', 'CDD', 'sanctions', 'MLA', 'LC', 'PC'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-048',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'IO.2 International Cooperation — Moderate',
+    text: "CAMLMAC exchanges information with foreign FIUs but sends requests abroad to a much lesser extent than it receives, not commensurate with volumes of STRs analyzed. China has worked with Singapore, Australia, New Zealand, Italy, Spain, the US, and Canada on ML investigations. Feedback on cooperation was mixed, with some countries indicating need to enhance speed and efficiency of MLA responses.",
+    keywords: ['international cooperation', 'MLA', 'CAMLMAC', 'FIU', 'Singapore', 'information exchange', 'moderate', 'foreign requests'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-049',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'Smurfing and Structuring Typologies',
+    text: "China's NRA and assessment identified structuring (smurfing) as a common method used to circumvent the RMB 50,000 cash reporting threshold. Frequent cash transactions just below the reporting threshold — typically between RMB 40,000 and 49,999 — indicate potential structuring behavior. Money changers and payment intermediaries are identified as high-risk channels for structuring activities.",
+    keywords: ['smurfing', 'structuring', 'threshold', '50000', 'cash', 'PBOC_LARGE_CASH', 'typology', 'money changer'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-050',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'Fan-Out and Fan-In Typologies',
+    text: "Fan-out (scatter) patterns — a single account distributing funds to multiple recipients — and fan-in (aggregation) patterns — multiple accounts funneling funds to a single recipient — are among the primary money laundering typologies identified in China. These patterns are commonly detected in transaction network analysis and associated with underground banking and cross-border capital flight.",
+    keywords: ['fan-out', 'fan-in', 'scatter', 'aggregation', 'network analysis', 'typology', 'underground banking', 'cross-border'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-051',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'Cycle / Round-Trip Typology',
+    text: "Circular fund flows — where funds move through a series of accounts and ultimately return to the originating account — create a false appearance of legitimate transactions. This round-trip or cycle typology often involves multiple legal entities and intermediary accounts across jurisdictions, making it difficult to trace the ultimate beneficial owner and the origin of funds.",
+    keywords: ['cycle', 'round-trip', 'circular funds', 'layering', 'beneficial owner', 'typology', 'intermediary account'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-052',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'High-Risk Jurisdictions',
+    text: "China's NRA identified specific high-risk jurisdictions and cross-border transaction patterns. Transactions involving jurisdictions with inadequate AML controls, offshore financial centers, and countries under FATF increased monitoring are subject to enhanced due diligence. Financial institutions must apply additional scrutiny to transactions from high-risk countries and territories.",
+    keywords: ['high risk country', 'jurisdiction', 'offshore', 'FATF list', 'cross-border', 'enhanced due diligence', 'increased monitoring'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-053',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'CAMLMAC Role and Function',
+    text: "CAMLMAC (China Anti-Money Laundering Monitoring and Analysis Center) is China's financial intelligence unit (FIU), established under the People's Bank of China. It receives and analyzes large transaction reports and suspicious transaction reports from financial institutions, disseminates financial intelligence to law enforcement agencies, and operates jointly with PBC's 36 provincial AML branches.",
+    keywords: ['CAMLMAC', 'FIU', 'financial intelligence unit', 'PBC', 'monitoring', 'STR analysis', 'law enforcement'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-054',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'Rapid Movement Typology',
+    text: "Rapid movement of funds — receiving a large deposit and quickly transferring it out within 24 to 48 hours — is a key indicator of layering activity. This typology is particularly common in corporate accounts and is used to obscure the trail of illicit funds. PBOC's transaction monitoring systems flag accounts exhibiting this pattern for suspicious transaction review.",
+    keywords: ['rapid movement', 'layering', '24 hours', 'quick transfer', 'deposit', 'suspicious indicator', 'corporate account'],
+    lang: 'en',
+  },
+  {
+    id: 'REG-055',
+    source: 'fatf_china_2019',
+    sourceTitle: 'FATF China Mutual Evaluation Report 2019 (IMF Country Report 19/172)',
+    article: 'Confiscation and Asset Recovery — IO.8',
+    text: "The pursuit of criminal proceeds is a policy objective for China. Criminal proceeds and instrumentality forfeiture routinely occur as part of the sentencing process. China has the ability to confiscate property in absence of conviction where the criminal has absconded or died. Between 2013 and 2017, instrument confiscations and criminally derived property confiscated showed an increasing trend.",
+    keywords: ['confiscation', 'asset recovery', 'forfeiture', 'criminal proceeds', 'absconded', 'without conviction', 'IO.8'],
     lang: 'en',
   },
 ];
 
-const CJK_PATTERN = /[\u4e00-\u9fff]/;
-const NORMALIZE_PATTERN = /[，。、“”‘’（）()【】[\],.:;!?/\-_]+/g;
-const SOURCE_PRIORITY: Record<RegulationSource, number> = {
-  aml_law_2024: 4,
-  camlmac_report: 3,
-  kpmg_analysis: 2,
-  fatf_china_2019: 1,
-};
-
-function normalizeText(input: string): string {
-  return input.toLowerCase().replace(NORMALIZE_PATTERN, ' ').replace(/\s+/g, ' ').trim();
-}
-
-function buildCjkTerms(query: string): { phrases: string[]; terms: string[] } {
-  const compact = query.replace(/\s+/g, '');
-  const phrases = new Set<string>();
-  const terms = new Set<string>();
-
-  for (const part of query.split(/\s+/).map((item) => item.trim()).filter(Boolean)) {
-    phrases.add(part);
-  }
-  if (compact) {
-    phrases.add(compact);
-  }
-
-  for (const phrase of phrases) {
-    const chars = [...phrase];
-    if (phrase.length <= 2) {
-      terms.add(phrase);
-      continue;
-    }
-    for (let index = 0; index < chars.length - 1; index += 1) {
-      terms.add(chars.slice(index, index + 2).join(''));
-    }
-    chars.forEach((char) => terms.add(char));
-  }
-
-  return {
-    phrases: [...phrases],
-    terms: [...terms],
-  };
-}
-
-function buildLatinTerms(query: string): { phrases: string[]; terms: string[] } {
-  const normalized = normalizeText(query);
-  const terms = normalized.split(' ').filter(Boolean);
-  return {
-    phrases: normalized ? [normalized] : [],
-    terms,
-  };
-}
-
+// BM25-style client-side retrieval (keyword overlap scoring)
 export function searchRegulations(query: string, topK = 5): RegulationChunk[] {
-  const trimmed = query.trim();
-  if (!trimmed) {
-    return [];
-  }
+  const queryTerms = query
+    .toLowerCase()
+    .replace(/[，。？！、：；""''（）【】]/g, ' ')
+    .split(/\s+/)
+    .filter(t => t.length > 1);
 
-  const isCjk = CJK_PATTERN.test(trimmed);
-  const normalizedQuery = normalizeText(trimmed);
-  const { phrases, terms } = isCjk ? buildCjkTerms(trimmed) : buildLatinTerms(trimmed);
-  const preferredLang: RegulationChunk['lang'] = isCjk ? 'zh' : 'en';
+  if (queryTerms.length === 0) return amlRegulations.slice(0, topK);
 
-  return amlRegulations
-    .map((chunk) => {
-      const haystack = normalizeText(
-        [chunk.sourceTitle, chunk.article, chunk.text, ...chunk.keywords].join(' ')
-      );
-      const normalizedKeywords = chunk.keywords.map((keyword) => normalizeText(keyword));
+  const scored = amlRegulations.map(chunk => {
+    const keywordScore = chunk.keywords.filter(k =>
+      queryTerms.some(t => k.toLowerCase().includes(t) || t.includes(k.toLowerCase()))
+    ).length;
+    const textTerms = (chunk.text + ' ' + chunk.article).toLowerCase();
+    const textScore = queryTerms.filter(t => textTerms.includes(t)).length * 0.5;
+    return { chunk, score: keywordScore + textScore };
+  });
 
-      let score = 0;
-
-      if (chunk.lang === preferredLang) {
-        score += 12;
-      }
-
-      for (const phrase of phrases) {
-        const normalizedPhrase = normalizeText(phrase);
-        if (!normalizedPhrase) {
-          continue;
-        }
-        if (haystack.includes(normalizedPhrase)) {
-          score += normalizedPhrase.length >= 4 ? 18 : 10;
-        }
-        if (normalizedKeywords.some((keyword) => keyword === normalizedPhrase)) {
-          score += 12;
-        }
-      }
-
-      for (const term of terms) {
-        const normalizedTerm = normalizeText(term);
-        if (!normalizedTerm) {
-          continue;
-        }
-        if (normalizedKeywords.some((keyword) => keyword.includes(normalizedTerm))) {
-          score += normalizedTerm.length >= 2 ? 6 : 1;
-          continue;
-        }
-        if (haystack.includes(normalizedTerm)) {
-          score += normalizedTerm.length >= 2 ? 3 : 0;
-        }
-      }
-
-      if (normalizedQuery && chunk.article && haystack.includes(normalizeText(chunk.article))) {
-        score += 1;
-      }
-
-      return { chunk, score };
-    })
+  return scored
     .filter(({ score }) => score > 0)
-    .sort((left, right) => {
-      if (right.score !== left.score) {
-        return right.score - left.score;
-      }
-      if (right.chunk.lang !== left.chunk.lang) {
-        return right.chunk.lang === preferredLang ? 1 : -1;
-      }
-      return SOURCE_PRIORITY[right.chunk.source] - SOURCE_PRIORITY[left.chunk.source];
-    })
+    .sort((a, b) => b.score - a.score)
     .slice(0, topK)
     .map(({ chunk }) => chunk);
 }
