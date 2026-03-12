@@ -1,0 +1,173 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ===========================================
+// User Management (for demo purposes)
+// ===========================================
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String
+  role      String   @default("auditor") // admin, senior_auditor, auditor
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  projects   AuditProject[] @relation("ProjectOwner")
+  workpapers Workpaper[]    @relation("WorkpaperAuthor")
+  qcAnalyses QcAnalysis[]   @relation("QcAnalyzer")
+  risks      RiskAssessment[] @relation("RiskOwner")
+}
+
+// ===========================================
+// Audit Project Management
+// ===========================================
+model AuditProject {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  status      String   @default("planning") // planning, fieldwork, review, reporting, completed
+  priority    String   @default("medium")   // low, medium, high, critical
+  startDate   DateTime?
+  endDate     DateTime?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Owner relation
+  ownerId String
+  owner   User   @relation("ProjectOwner", fields: [ownerId], references: [id])
+
+  // Relations
+  milestones  ProjectMilestone[]
+  workpapers  Workpaper[]
+  risks       RiskAssessment[]
+}
+
+// ===========================================
+// Project Milestones
+// ===========================================
+model ProjectMilestone {
+  id          String    @id @default(cuid())
+  name        String
+  description String?
+  dueDate     DateTime?
+  status      String    @default("pending") // pending, in_progress, completed, overdue
+  completedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  // Project relation
+  projectId String
+  project   AuditProject @relation(fields: [projectId], references: [id], onDelete: Cascade)
+}
+
+// ===========================================
+// Workpaper (mirrors WorkpaperInput type)
+// ===========================================
+model Workpaper {
+  id                    String   @id @default(cuid())
+  title                 String
+
+  // Core workpaper fields (from WorkpaperInput)
+  auditObjective        String
+  riskStatement         String
+  controlDescription    String
+  controlType           String   // preventive, detective
+  controlFrequency      String   // daily, weekly, monthly, quarterly, adHoc
+  populationDescription String
+  samplingMethod        String   // attribute, judgmental, random
+  sampleSize            Int
+  testProcedure         String
+  evidenceCaptured      String
+  testResult            String   // pass, fail, exception
+  exceptionDetail       String   @default("")
+  conclusion            String
+
+  // Metadata
+  status    String   @default("draft") // draft, pending_review, reviewed, approved
+  version   Int      @default(1)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  projectId String?
+  project   AuditProject? @relation(fields: [projectId], references: [id], onDelete: SetNull)
+
+  authorId String
+  author   User   @relation("WorkpaperAuthor", fields: [authorId], references: [id])
+
+  // QC history
+  qcAnalyses QcAnalysis[]
+}
+
+// ===========================================
+// QC Analysis Results (stores evaluateWorkpaper output)
+// ===========================================
+model QcAnalysis {
+  id         String   @id @default(cuid())
+  totalScore Int
+  maxScore   Int
+  percentage Int
+
+  // JSON fields for complex data
+  rubricBreakdown String // JSON array of RubricScore
+  findings        String // JSON array of Finding
+  suggestions     String // JSON array of strings
+
+  // Analysis metadata
+  analysisDate DateTime @default(now())
+  version      Int      @default(1)
+
+  // Relations
+  workpaperId String
+  workpaper   Workpaper @relation(fields: [workpaperId], references: [id], onDelete: Cascade)
+
+  analyzerId String
+  analyzer   User   @relation("QcAnalyzer", fields: [analyzerId], references: [id])
+}
+
+// ===========================================
+// Risk Assessment
+// ===========================================
+model RiskAssessment {
+  id          String  @id @default(cuid())
+  name        String
+  description String?
+  category    String  // financial, operational, compliance, strategic, technology
+
+  // Inherent risk (before controls)
+  inherentLikelihood Int // 1-5
+  inherentImpact     Int // 1-5
+
+  // Control effectiveness
+  controlEffectiveness String @default("effective") // effective, partially_effective, ineffective
+
+  // Residual risk (after controls)
+  residualLikelihood Int // 1-5
+  residualImpact     Int // 1-5
+
+  // Mitigation
+  mitigationPlan   String?
+  mitigationStatus String  @default("planned") // planned, in_progress, completed
+
+  // Metadata
+  assessmentDate DateTime @default(now())
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  // Relations
+  projectId String?
+  project   AuditProject? @relation(fields: [projectId], references: [id], onDelete: SetNull)
+
+  ownerId String
+  owner   User   @relation("RiskOwner", fields: [ownerId], references: [id])
+}

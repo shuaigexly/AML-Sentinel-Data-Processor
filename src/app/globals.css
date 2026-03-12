@@ -1,0 +1,382 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background-light text-gray-900 dark:bg-background-dark dark:text-gray-100;
+}
+
+::selection {
+  @apply bg-primary-500/20;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  @apply w-1.5;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-gray-300/60 dark:bg-gray-700/60;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-gray-600;
+}
+
+/* Focus styles */
+*:focus-visible {
+  @apply outline-2 outline-offset-2 outline-primary-500;
+}
+
+/* Smooth transitions for theme switching */
+* {
+  @apply transition-colors duration-200;
+}
+
+/* ========== Keyframes ========== */
+@keyframes gradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-16px); }
+}
+
+@keyframes aurora {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.75; }
+  25% { transform: translate(50px, -35px) scale(1.12); opacity: 1; }
+  75% { transform: translate(-30px, 22px) scale(0.92); opacity: 0.65; }
+}
+
+@keyframes slideUp {
+  0% { opacity: 0; transform: translateY(22px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes breathe {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+/* ========== Gradient Text ========== */
+.gradient-text {
+  background: linear-gradient(135deg, #0f766e 0%, #0d9488 60%, #0f766e 100%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient 8s ease infinite;
+}
+
+.dark .gradient-text {
+  background: linear-gradient(135deg, #2dd4bf 0%, #5eead4 60%, #2dd4bf 100%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient 8s ease infinite;
+}
+
+/* ========== Hero Glow ========== */
+.hero-glow {
+  background:
+    radial-gradient(ellipse 60% 50% at 50% 0%, rgba(13, 148, 136, 0.06) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 40% at 70% 60%, rgba(13, 148, 136, 0.03) 0%, transparent 60%);
+}
+
+.dark .hero-glow {
+  background:
+    radial-gradient(ellipse 60% 50% at 50% 0%, rgba(13, 148, 136, 0.14) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 40% at 70% 60%, rgba(13, 148, 136, 0.07) 0%, transparent 60%);
+}
+
+/* ========== Section Divider ========== */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 5%, rgba(13, 148, 136, 0.15) 50%, transparent 95%);
+}
+
+.dark .section-divider {
+  background: linear-gradient(90deg, transparent 5%, rgba(45, 212, 191, 0.12) 50%, transparent 95%);
+}
+
+/* ========== Card Shine Sweep ========== */
+.card-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-shine::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    105deg,
+    transparent 40%,
+    rgba(13, 148, 136, 0.03) 45%,
+    rgba(13, 148, 136, 0.05) 50%,
+    rgba(13, 148, 136, 0.03) 55%,
+    transparent 60%
+  );
+  transition: left 0.7s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.card-shine:hover::before {
+  left: 100%;
+}
+
+/* ========== Gradient Border Card ========== */
+.gradient-border {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 1rem;
+  padding: 1px;
+  background: linear-gradient(135deg, transparent, rgba(13, 148, 136, 0.25), transparent, rgba(13, 148, 136, 0.12), transparent);
+  background-size: 300% 300%;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.4s ease, background-position 0.4s ease;
+}
+
+.gradient-border:hover::before {
+  opacity: 1;
+  animation: gradient-rotate 4s linear infinite;
+}
+
+@keyframes gradient-rotate {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ========== Glass Card ========== */
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dark .glass-card {
+  background: rgba(15, 15, 25, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* ========== Dot Grid Pattern ========== */
+.dot-pattern {
+  background-image: radial-gradient(circle, rgba(107, 114, 128, 0.12) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.dark .dot-pattern {
+  background-image: radial-gradient(circle, rgba(75, 85, 99, 0.20) 1px, transparent 1px);
+}
+
+/* ========== Ambient Orb ========== */
+.ambient-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  will-change: transform;
+}
+
+/* ========== Noise Texture Overlay ========== */
+.noise-overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.015;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dark .noise-overlay::after {
+  opacity: 0.03;
+}
+
+/* ========== Stat Number Countup ========== */
+.stat-number {
+  background: linear-gradient(135deg, #0f766e, #0d9488);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.dark .stat-number {
+  background: linear-gradient(135deg, #2dd4bf, #5eead4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ========== Timeline Glow Dot ========== */
+.timeline-dot {
+  box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.12);
+  transition: all 0.3s ease;
+}
+
+.timeline-dot:hover,
+.group:hover .timeline-dot {
+  box-shadow: 0 0 0 6px rgba(13, 148, 136, 0.18), 0 0 16px rgba(13, 148, 136, 0.18);
+}
+
+/* ========== Link Underline Animation ========== */
+.link-underline {
+  position: relative;
+}
+
+.link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #0d9488, #0f766e);
+  border-radius: 1px;
+  transition: width 0.3s ease;
+}
+
+.link-underline:hover::after {
+  width: 100%;
+}
+
+/* ========== Button Glow ========== */
+.btn-glow {
+  position: relative;
+}
+
+.btn-glow::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #0d9488, #0f766e);
+  z-index: -1;
+  opacity: 0;
+  filter: blur(12px);
+  transition: opacity 0.4s ease;
+}
+
+.btn-glow:hover::after {
+  opacity: 0.4;
+}
+
+/* ========== Aurora Hero Background ========== */
+.aurora-hero {
+  background:
+    radial-gradient(ellipse 80% 55% at 50% -5%, rgba(13, 148, 136, 0.07) 0%, transparent 65%),
+    radial-gradient(ellipse 45% 35% at 15% 65%, rgba(13, 148, 136, 0.04) 0%, transparent 50%);
+}
+
+.dark .aurora-hero {
+  background:
+    radial-gradient(ellipse 80% 55% at 50% -5%, rgba(13, 148, 136, 0.18) 0%, transparent 65%),
+    radial-gradient(ellipse 45% 35% at 15% 65%, rgba(13, 148, 136, 0.09) 0%, transparent 50%);
+}
+
+/* ========== Bento Card ========== */
+.bento-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.15s ease-out, box-shadow 0.3s ease;
+  will-change: transform;
+}
+
+.bento-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(13,148,136,0.04) 0%, transparent 60%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.bento-card:hover::after {
+  opacity: 1;
+}
+
+/* ========== Glassmorphism Card (dark mode enhanced) ========== */
+.dark .glass-card {
+  background: rgba(15, 15, 30, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 0 0 0.5px rgba(13, 148, 136, 0.08) inset;
+}
+
+/* ========== Tilt Perspective ========== */
+.tilt-3d {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+/* ========== Tech Marquee ========== */
+@keyframes marquee-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes marquee-right {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+
+.marquee-left {
+  animation: marquee-left 28s linear infinite;
+}
+
+.marquee-right {
+  animation: marquee-right 32s linear infinite;
+}
+
+.marquee-left:hover,
+.marquee-right:hover {
+  animation-play-state: paused;
+}
+
+/* ========== CTA Section Glow ========== */
+.cta-glow {
+  background:
+    radial-gradient(ellipse 70% 60% at 50% 100%, rgba(13, 148, 136, 0.08) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 40% at 80% 0%, rgba(13, 148, 136, 0.04) 0%, transparent 60%);
+}
+
+.dark .cta-glow {
+  background:
+    radial-gradient(ellipse 70% 60% at 50% 100%, rgba(13, 148, 136, 0.18) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 40% at 80% 0%, rgba(13, 148, 136, 0.09) 0%, transparent 60%);
+}

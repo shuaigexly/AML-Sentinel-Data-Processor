@@ -1,0 +1,1127 @@
+{
+  "meta": {
+    "title": "徐砻毓 | 风险分析与金融科技",
+    "description": "风险分析与金融科技专业人士。EDHEC 国际金融与管理双硕士在读，具备风险策略、财务审计与数据分析实战经验。",
+    "ogTitle": "徐砻毓 - 风险与金融科技作品集",
+    "ogDescription": "了解我在风险策略、财务审计自动化和数据分析方面的经验。"
+  },
+  "nav": {
+    "home": "首页",
+    "projects": "项目",
+    "dashboard": "仪表板",
+    "research": "研究",
+    "resume": "简历",
+    "contact": "联系",
+    "riskTool": "风险工具"
+  },
+  "hero": {
+    "greeting": "你好，我是",
+    "name": "徐砻毓",
+    "tagline": "风险分析｜金融科技｜数据驱动金融",
+    "nowBadge": "最快到岗 2026/03 — 寻找风险/金融科技/量化金融岗位",
+    "resumeBtn": "查看简历",
+    "projectsBtn": "查看项目",
+    "contactBtn": "联系我"
+  },
+  "about": {
+    "title": "关于我",
+    "content": "我就读于 EDHEC 商学院国际金融与管理双硕士（GPA 15.66/20，前15%），本科毕业于上海交通大学金融学（辅修信息管理）。我在巴黎和上海积累了风险策略、财务数字化审计与数据分析的实战经验，擅长运用量化方法与数据工程解决真实的风险和商业问题。"
+  },
+  "experience": {
+    "title": "工作经历",
+    "natixis": {
+      "company": "法国外贸银行（Natixis CIB）",
+      "role": "风控分析实习生",
+      "period": "2025/01 – 2025/07",
+      "location": "法国巴黎",
+      "bullets": [
+        "使用 Power BI + DAX 搭建风险及 KPI 可视化看板，实现关键风险指标与管控效果的实时监控",
+        "用 Python/VBA 开发监控数据清洗与分析自动化脚本，累计编写3,000+行生产代码",
+        "对重复性数据提取、校验与格式化任务进行自动化改造，显著降低人工报表工作量"
+      ]
+    },
+    "geVernova": {
+      "company": "GE Vernova",
+      "role": "财务数字化审计实习生",
+      "period": "2024/09 – 2025/01",
+      "location": "法国巴黎",
+      "bullets": [
+        "基于 Excel + VBA 自动化生成预测及经营报表，融入版本控制与数据口径校验逻辑",
+        "梳理数据完整性、权限审批流程及留痕回溯等关键风险点并形成文档",
+        "将偏差分析模块化为可复用模板，提升报告周期中的效率与一致性"
+      ]
+    },
+    "allinpay": {
+      "company": "通联支付网络科技有限公司",
+      "role": "风险策略师",
+      "period": "2022/07 – 2023/02",
+      "location": "中国上海",
+      "bullets": [
+        "负责支付业务风险管理与策略优化，识别风险控制漏洞并提出管控方案",
+        "用 Python + LightGBM 优化风险识别模型，AUC 从0.82提升至0.91，准确率提升22%",
+        "针对惠农业务线开展反欺诈需求分析，设计风控规则体系",
+        "研究监管政策，协助撰写《二维码扫码支付暂行条例》初稿"
+      ]
+    },
+    "caizhen": {
+      "company": "财通证券有限公司",
+      "role": "风控实习生",
+      "period": "2022/01 – 2022/03",
+      "location": "中国上海",
+      "bullets": [
+        "开展财务报表风险识别与合规审查，标记异常项与控制缺陷",
+        "整理并汇总风险识别与评估报告，支持风险管理团队日常工作"
+      ]
+    }
+  },
+  "education": {
+    "title": "教育背景",
+    "edhec": {
+      "school": "EDHEC 商学院",
+      "degree": "国际金融学 & 管理学双硕士",
+      "period": "2023/09 – 2026/12（预计）",
+      "details": "GPA 15.66/20（前15%）| 中国杰出校友奖学金（半奖）",
+      "courses": "Python投资组合分析、金融科技、金融建模、VBA、并购分析"
+    },
+    "sjtu": {
+      "school": "上海交通大学",
+      "degree": "金融学学士（辅修：信息管理）",
+      "period": "2018/09 – 2022/06",
+      "details": "",
+      "courses": "商务统计学、数据库与大数据、算法分析、计量经济学、公司金融学"
+    }
+  },
+  "skills": {
+    "title": "技能",
+    "categories": {
+      "productOperations": {
+        "title": "风险与金融",
+        "items": [
+          "风险策略与管控设计",
+          "欺诈检测与反欺诈规则",
+          "财务报表分析",
+          "监管合规研究",
+          "内部审计与内控",
+          "偏差分析与报告"
+        ]
+      },
+      "dataTools": {
+        "title": "数据与技术工具",
+        "items": [
+          "Python（LightGBM、pandas、matplotlib）",
+          "SQL",
+          "Power BI / DAX",
+          "VBA / Excel",
+          "爬虫与数据管道",
+          "Claude Code / Codex"
+        ]
+      },
+      "languages": {
+        "title": "语言能力",
+        "items": [
+          "英语（流利）",
+          "法语（中级）",
+          "中文（母语）"
+        ]
+      }
+    }
+  },
+  "featuredProjects": {
+    "title": "精选项目",
+    "viewAll": "查看所有项目"
+  },
+  "leadership": {
+    "title": "活动与领导力",
+    "role": "EDHEC 校园大使 & 中国学生会主席",
+    "period": "2023/09 – 2026/06",
+    "description": "筹集赞助 €2,000，举办春节晚会，200+人参与。作为官方校园大使开展中国留学生招募推广活动。",
+    "extras": [
+      {
+        "role": "AI Agent狼人杀全球锦标赛（阿里巴巴 / WhoisSpy）",
+        "period": "2026/02 – 2026/03",
+        "description": "参加AI智能体设计大赛，当前排名全球前8。"
+      },
+      {
+        "role": "上海交通大学钢琴协会筹划部部长",
+        "period": "2019/09 – 2020/08",
+        "description": "策划并举办「樱时」学生音乐会系列活动。"
+      }
+    ]
+  },
+  "projects": {
+    "title": "项目",
+    "filterLabel": "筛选：",
+    "allTag": "全部",
+    "readTime": "分钟阅读",
+    "viewProject": "查看项目",
+    "backToProjects": "← 返回项目列表",
+    "tags": {
+      "internalAudit": "内部审计",
+      "compliance": "合规",
+      "controls": "内控",
+      "aiCoding": "AI编程",
+      "dataAnalytics": "数据分析",
+      "powerBi": "Power BI",
+      "python": "Python",
+      "sql": "SQL",
+      "leadership": "领导力",
+      "productOperations": "产品运营",
+      "userGrowth": "用户增长",
+      "abtesting": "A/B测试",
+      "visualization": "数据可视化",
+      "riskAnalytics": "风险分析",
+      "automation": "自动化",
+      "machineLearning": "机器学习",
+      "aiAgent": "AI 智能体",
+      "rag": "RAG 检索增强",
+      "llm": "大语言模型",
+      "workflow": "工作流"
+    },
+    "items": {
+      "paymentRiskAssistant": {
+        "title": "支付风险政策与监控助手",
+        "slug": "payment-risk-assistant",
+        "summary": "一个集成法规要求、风险管控映射、场景评分与实时预警监控的合规工作流工具，作为 B2B 内部风控运营原型构建。",
+        "readTime": 8,
+        "tags": ["riskAnalytics", "dataAnalytics", "visualization", "python", "sql"],
+        "content": {
+          "overview": "本工具演示了金融科技合规团队的支付风险管理工作流，将法规要求（PCI-DSS、AML、PSD2、GDPR）映射至风险类别与管控措施，通过加权算法对风险场景评分，并实时呈现监控预警与处置建议。",
+          "features": [
+            "法规库 — 11 条活跃法规，含关联风险类别与管控措施引用",
+            "风险管控映射 — 业务领域 → 风险 → 法规 → 管控 → KPI 指标的可视化链路",
+            "场景风险评分 — 加权算法：基础严重度 + 警报惩罚 − 管控覆盖，分 Low/Medium/High/Critical 四级",
+            "警报管理 — 可筛选的事件流，含严重等级、状态、关联场景与建议处置措施",
+            "摘要备忘生成器 — 一键生成纯文本风险评估备忘录，用于合规汇报"
+          ],
+          "methodology": "风险评分采用加权模型：每个风险类别按严重度赋权（critical=4, high=3, medium=2, low=1），每条未关闭警报叠加 +5 惩罚，每条活跃管控减免 -2 分。最终分数映射至四个等级区间。数据层使用 TypeScript 静态数据模拟实时 API，无需数据库即可完整运行。"
+        }
+      },
+      "workpaperQc": {
+        "title": "内部审计工作底稿质量检查 + 抽样助手",
+        "slug": "workpaper-qc",
+        "summary": "一个交互式演示工具，使用内部审计最佳实践评估工作底稿质量、建议抽样规模并提供可操作的反馈。",
+        "readTime": 8,
+        "tags": [
+          "internalAudit",
+          "controls",
+          "python"
+        ],
+        "content": {
+          "overview": "此工具帮助内部审计师根据行业最佳实践评估其工作底稿的质量。它基于完整性、可追溯性、抽样理由、证据充分性、结论质量和专业语气计算质量分数。",
+          "features": [
+            "工作底稿质量评分（0-100）及详细评分细则",
+            "发现问题列表及严重程度评级（高/中/低）",
+            "测试程序和结论的改进建议",
+            "基于置信水平的抽样规模建议助手",
+            "导出为 Markdown 格式用于文档归档"
+          ],
+          "methodology": "评分算法评估六个关键维度：完整性（必填字段和充分细节）、可追溯性（风险-控制-程序对齐）、抽样理由（总体、方法和规模论证）、证据充分性（文档和存储）、结论质量（标准、情况、原因、影响、建议）和专业语气（术语一致性）。"
+        }
+      },
+      "claudeCodeToolkit": {
+        "title": "Claude Code 驱动的审计自动化工具包",
+        "slug": "claude-code-toolkit",
+        "summary": "利用 AI 编程助手自动化重复性审计任务，包括数据提取、控制测试脚本和工作底稿生成。",
+        "readTime": 6,
+        "tags": [
+          "internalAudit",
+          "aiCoding",
+          "python",
+          "dataAnalytics"
+        ],
+        "content": {
+          "overview": "本项目探索 AI 编程助手如 Claude Code 如何加速内部审计工作流程。工具包包括自动化数据提取脚本、控制测试模板和工作底稿生成实用程序。",
+          "features": [
+            "从多个源系统自动提取数据",
+            "参数化控制测试脚本",
+            "预填充章节的工作底稿模板生成",
+            "证据收集和整理实用程序"
+          ],
+          "methodology": "工具包采用模块化架构，每个审计任务被分解为离散的、可测试的功能。AI 辅助用于代码生成，同时保持人工监督以确保质量保证和业务逻辑验证。"
+        }
+      },
+      "ccduAiCoding": {
+        "title": "CCDU — AI 编程系列组织者与讲师",
+        "slug": "ccdu-ai-coding",
+        "summary": "组织并教授 AI 编程研讨会系列，教学生如何利用 AI 工具进行编程和数据分析任务。",
+        "readTime": 5,
+        "tags": [
+          "aiCoding",
+          "leadership",
+          "python"
+        ],
+        "content": {
+          "overview": "作为 CCDU AI 编程系列的组织者和讲师，我开发了课程并主持研讨会，教授参与者如何有效地使用 AI 编程助手解决实际编程挑战。",
+          "features": [
+            "AI 辅助编程研讨会课程开发",
+            "基于真实用例的实践练习",
+            "提示词工程最佳实践",
+            "与数据分析工作流程的集成"
+          ],
+          "methodology": "该系列采用渐进式学习方法，从基本的 AI 交互模式开始，逐步进阶到复杂的多步骤编程任务。每次课程包括现场演示、实践练习和代码审查环节。"
+        }
+      },
+      "universityDashboard": {
+        "title": "大学数据智能仪表板",
+        "slug": "university-dashboard",
+        "summary": "一个综合 BI 仪表板，结合网络爬虫、数据处理和可视化，提供大学指标和趋势洞察。",
+        "readTime": 7,
+        "tags": [
+          "dataAnalytics",
+          "powerBi",
+          "python",
+          "sql"
+        ],
+        "content": {
+          "overview": "本项目涉及构建端到端数据管道，爬取公开可用的大学数据，通过 ETL 工作流程处理，并在交互式 Power BI 仪表板中呈现。",
+          "features": [
+            "自动化网络爬虫进行数据收集",
+            "数据清洗和转换的 ETL 管道",
+            "具有钻取功能的交互式 Power BI 仪表板",
+            "趋势分析和比较指标"
+          ],
+          "methodology": "解决方案使用 Python 进行网络抓取和数据处理，SQL 用于数据存储和查询，Power BI 用于可视化。架构强调数据质量检查和自动化刷新计划。"
+        }
+      },
+      "userGrowthAnalytics": {
+        "title": "用户增长分析平台",
+        "slug": "user-growth-analytics",
+        "summary": "交互式产品运营分析平台，涵盖 AARRR 漏斗分析、队列留存热力图、渠道归因、A/B 测试计算器和竞品功能矩阵。",
+        "readTime": 10,
+        "tags": [
+          "productOperations",
+          "userGrowth",
+          "dataAnalytics",
+          "abtesting",
+          "visualization"
+        ],
+        "content": {
+          "overview": "该平台展示核心产品运营分析能力，提供用户获取分析、激活优化、留存追踪、收入归因和推荐传播测量的交互式工具 — 完整的 AARRR 框架，被头部互联网公司广泛使用。",
+          "features": [
+            "AARRR 漏斗可视化，跟踪获取→激活→留存→收入→推荐各阶段转化率",
+            "队列留存分析，热力图展示按注册队列的次日、7日、14日、30日留存",
+            "渠道归因仪表板，对比多个营销渠道的 CAC、LTV、ROI",
+            "A/B 测试显著性计算器，包含双比例 z 检验、p 值和置信区间",
+            "竞品功能矩阵，跨关键维度的产品并排对比",
+            "导出分析报告为 Markdown 格式供利益相关方分享"
+          ],
+          "methodology": "分析引擎使用行业标准产品指标公式：DAU/MAU 粘性比率、K-factor 病毒系数、LTV:CAC 单位经济比率。A/B 实验的统计显著性通过双比例 z 检验计算。队列分析遵循留存曲线最佳实践，支持灵活的时间窗口。"
+        }
+      },
+      "fintechRagAssistant": {
+        "title": "金融文档 RAG 智能问答系统",
+        "slug": "fintech-rag-assistant",
+        "summary": "面向金融监管文档（PBOC/SAFE法规）构建的 RAG 检索增强问答系统，支持自然语言合规查询并输出带来源引用的精准答案，帮助合规团队快速定位政策依据。",
+        "readTime": 9,
+        "content": {
+          "overview": "本项目为金融机构合规团队设计，将人民银行、外汇局等监管部门发布的法规文件转化为可检索的知识库。通过 RAG 架构，用户可用自然语言提问（如「非银支付机构的备付金管理要求是什么」），系统自动检索相关法规段落并由 LLM 综合生成答案，附带原文引用链接。",
+          "features": [
+            "混合检索策略：BM25 稀疏检索 + 向量密集检索（双路召回），显著提升复杂法规查询的相关性",
+            "智能分块：按法规条款边界切割，保留条文语义完整性，避免跨条截断导致的语义丢失",
+            "LLM 综合答案：检索段落送入大模型，生成连贯解释并标注每个论断的来源条款",
+            "引用溯源：每条答案附带引用的法规名称、条款编号和原文摘录，支持快速核验",
+            "多文档联合检索：支持同时检索多部法规，自动处理法规间的交叉引用关系"
+          ],
+          "methodology": "系统架构采用 LangChain + ChromaDB 向量库。文档预处理阶段按监管条款边界切块（chunk_size=512，overlap=64）；检索阶段融合 BM25 与 text-embedding-3-small 向量得分（权重 0.3:0.7）；生成阶段使用 GPT-4o 输出结构化 JSON，包含 answer、sources、confidence 三个字段，前端据此渲染引用卡片。"
+        }
+      },
+      "multiAgentResearch": {
+        "title": "多智能体金融研究助手",
+        "slug": "multi-agent-research",
+        "summary": "基于 LLM 的多智能体编排系统，实现自动化金融研究流水线：数据采集 Agent → 量化分析 Agent → 报告生成 Agent，支持工具调用与上下文记忆，将研究周期从数天压缩至分钟级。",
+        "readTime": 10,
+        "content": {
+          "overview": "本项目构建了一个以 Supervisor Agent 为核心的多智能体协作系统，用于自动化完成金融研究任务。用户输入研究主题（如「分析某上市公司Q3财报风险」），系统自动拆解为子任务并分配给专职 Agent：数据采集 Agent 拉取财务数据和新闻，量化分析 Agent 运行指标计算和异常检测，报告生成 Agent 汇总为结构化研究报告。",
+          "features": [
+            "Supervisor-Worker 架构：Supervisor Agent 负责任务分解、子 Agent 调度与结果汇总，支持动态路由",
+            "工具调用（Function Calling）：各 Agent 配备专属工具集，包括财务数据 API、计算器、图表生成器",
+            "上下文记忆管理：短期记忆存储当前研究状态，历史摘要压缩避免 Token 溢出",
+            "并行 Agent 执行：数据采集与初步分析并行运行，整体延迟降低 60%",
+            "Human-in-the-loop：关键节点（风险评级、结论确认）插入人工审批，确保输出可信"
+          ],
+          "methodology": "框架基于 LangGraph 构建状态机，节点为各 Agent，边为条件路由规则。Supervisor 使用 ReAct 模式规划 → 执行 → 观察循环。每个 Worker Agent 使用 structured output 返回标准 JSON 格式结果，Supervisor 汇总后送入报告生成 Agent。最终输出为 Markdown 格式研究报告，含摘要、财务分析、风险评估、投资建议四个章节。"
+        }
+      },
+      "aiWorkflowAutomation": {
+        "title": "LangGraph 合规审查自动化工作流",
+        "slug": "ai-workflow-automation",
+        "summary": "基于 LangGraph 状态机构建的合规文档审查流水线：文档上传 → 风险要素抽取 → 政策匹配 → 人工审批 → 报告生成，将传统 3–5 天的合规审查压缩至数分钟。",
+        "readTime": 8,
+        "content": {
+          "overview": "本项目针对金融机构合规审查场景，将繁琐的人工合规流程转化为 AI 驱动的自动化工作流。合规文档（合同、协议、申报材料）上传后，系统自动识别风险要素（主体资质、金额阈值、交易结构），与监管政策库比对，生成风险评估报告，并在关键决策点等待合规官人工确认。",
+          "features": [
+            "LangGraph 状态图：明确定义工作流节点（解析→抽取→匹配→审批→生成）和条件边（高风险→人工审核，低风险→自动通过）",
+            "结构化信息抽取：LLM 从非结构化文档中提取 JSON 格式的风险要素（主体、金额、期限、条款）",
+            "政策匹配引擎：抽取结果与监管规则库对比，自动标注违规点和合规风险等级",
+            "Human-in-the-loop 节点：LangGraph interrupt 机制实现审批暂停，支持合规官添加批注和修改判断",
+            "审计追踪：每个节点的输入/输出、判断依据和时间戳完整记录，满足合规审计要求"
+          ],
+          "methodology": "工作流使用 LangGraph 的 StateGraph API 定义，State 包含文档内容、抽取结果、匹配报告、审批状态等字段。条件路由基于风险评分阈值（score > 0.7 触发人工审核）。Human-in-the-loop 通过 NodeInterrupt 实现，前端轮询状态端点展示暂停状态。结构化输出使用 Pydantic 模型约束 LLM 输出格式，确保下游节点数据一致性。"
+        }
+      },
+      "operationsAnalyticsDashboard": {
+        "title": "运营数据分析仪表板",
+        "slug": "operations-analytics-dashboard",
+        "summary": "基于 Power BI 构建的企业级运营分析平台，集成 A/B 实验统计显著性评估、转化漏斗归因与渠道 ROI 分析，支持 90 天实时数据刷新与跨部门自助取数。",
+        "readTime": 6,
+        "content": {
+          "overview": "本仪表板面向产品与运营团队，将分散在多个数据源（MySQL、埋点、广告平台）的运营数据统一接入 Power BI，覆盖 DAU/MAU 趋势、实验结果统计显著性、用户漏斗分析、渠道获客 ROI 等核心指标，并通过参数化切片器支持自助下钻。",
+          "features": [
+            "A/B 实验仪表板 — 内嵌置信区间与 Z 检验模块，自动标注显著性（p<0.05/p<0.01），避免团队凭直觉决策",
+            "转化漏斗归因 — 7 步漏斗可视化，支持按渠道/设备/时段拆分，精确定位流失节点",
+            "渠道 ROI 矩阵 — 将广告花费与 LTV、CAC 对齐，实时呈现各渠道边际回报曲线",
+            "自动化报表推送 — Power Automate 每日 9 点将摘要报告推送至 Teams 频道，减少人工取数",
+            "数据血缘追踪 — 关键指标附带数据来源标注，方便非技术人员核查口径"
+          ],
+          "methodology": "数据层使用 Python ETL（pandas + sqlalchemy）对多源数据做清洗、宽表构建后写入 Azure SQL；Power BI 通过 DirectQuery 模式连接，确保数据实时性。A/B 显著性计算在 DAX 中实现两比例 Z 检验公式，漏斗分析使用 Power BI 瀑布图与自定义 SVG 可视化插件。整个仪表板通过行级安全（RLS）控制各团队数据权限。"
+        }
+      },
+      "aiCoworkPlatform": {
+        "title": "AI 协作式数据分析平台",
+        "slug": "ai-cowork-platform",
+        "summary": "人机协作数据分析环境，LLM 副驾驶伴随人类分析师完成 EDA、图表生成与洞察叙述，支持流式响应、多轮对话上下文和工具调用，将分析效率提升 3×。",
+        "readTime": 7,
+        "content": {
+          "overview": "本平台为数据分析师提供 AI 协作工作空间：分析师上传数据集，AI 副驾驶主动识别数据质量问题、建议分析思路、自动生成 Python 分析代码和 ECharts 可视化图表，并用自然语言解读图表背后的业务含义。整个过程支持多轮对话，AI 保持上下文理解分析师的意图。",
+          "features": [
+            "智能 EDA：AI 自动扫描数据集，检测缺失值、异常值、分布特征，生成描述性统计摘要",
+            "代码协同生成：分析师用自然语言描述需求，AI 生成可执行 Python 代码（pandas/seaborn），支持一键运行",
+            "动态图表生成：基于 LLM 工具调用，自动选择最合适的图表类型并配置 ECharts 参数",
+            "洞察叙述：图表生成后 AI 自动撰写业务解读文字，说明趋势、异常点和行动建议",
+            "流式输出：LLM 响应以 SSE 流式推送，分析师实时看到 AI 的思考过程，降低等待感"
+          ],
+          "methodology": "平台后端使用 FastAPI + LangChain，前端 Next.js + ECharts。AI 副驾驶配备 5 类工具：数据摘要工具、统计计算工具、图表配置生成工具、Python 代码执行沙箱、洞察撰写工具。工具调用结果通过结构化 JSON 返回，前端根据工具类型渲染不同 UI 组件（代码块、图表、文字卡片）。对话历史压缩为摘要后拼接至系统提示，保持长对话连贯性。"
+        }
+      },
+      "amlSentinel": {
+        "title": "AML Sentinel：中国场景反洗钱合规调查工作台",
+        "slug": "aml-sentinel",
+        "summary": "银行级 AML 合规调查工作台原型，结合信也科技 DGraph-Fin 真实欺诈数据、PBOC 监管 RAG 与 AI Agent 自动起草可疑交易报告，完整模拟合规分析师从预警到上报的调查工作流。",
+        "readTime": 10,
+        "content": {
+          "overview": "AML Sentinel 是银行级反洗钱调查与报告平台的产品原型，完整模拟合规分析师的工作流：预警分级、案件调查、监管法规查询、STR 起草。每个环节均以中国监管框架为基础。交易数据来源于 DGraph-Fin（信也科技，NeurIPS 2022）和 IBM AML（NeurIPS 2023）预处理数据；监管知识库涵盖反洗钱法 2024 修订版、FATF 中国互评估报告 2019 及 KPMG 合规分析。STR 生成器部署 6 步 Anthropic claude-sonnet-4-6 Agent，自动调查标记案件并生成 CAMLMAC 格式可疑交易报告草稿。",
+          "features": [
+            "预警队列 — 应用 PBOC 阈值规则（5万元现金/200万转账）对交易数据进行风险分级，结合 DGraph-Fin ML 评分展示 Critical/High/Medium/Low 四级预警及规则触发原因",
+            "案件概览 — 6 状态案件生命周期（新预警→调查中→需补充证据→待主管审核→误报关闭→待上报），含关键发现列表与上报紧迫性倒计时",
+            "关系调查 — ECharts 力导向图可视化资金关联网络，标注扇形分散、资金归集、循环对倒等 IBM AML HI-Small 洗钱类型；配合调查检查清单",
+            "监管知识库 — CJK-aware BM25 检索 + Anthropic API 问答，覆盖反洗钱法 2024、FATF 中国报告 2019、KPMG 合规分析；每条答案引用具体条文或章节编号",
+            "STR 自动起草 — 6 步 AI Agent（claude-sonnet-4-6 工具调用）：提取案件信息、分析账户历史、检索适用法规、识别洗钱类型、评估上报时限、起草 CAMLMAC 格式 STR"
+          ],
+          "methodology": "数据层：DGraph-Fin 节点特征映射为预警风险信号；IBM AML HI-Small 提供洗钱类型标注用于网络图可视化。监管 RAG 使用 CJK-aware BM25（中文双字组分词）从约 80 条分段法规中检索 top-5 片段，通过 Anthropic claude-sonnet-4-6 流式 API 生成有引用根据的答案。STR 生成采用 tool_use Agent 循环：Claude 迭代调用 5 个确定性工具后输出结构化 CAMLMAC 格式报告草稿。全流程保持 human-in-the-loop：AI 输出仅为辅助草稿，不自动提交。"
+        }
+      }
+    }
+  },
+  "resume": {
+    "title": "简历",
+    "downloadBtn": "下载 PDF",
+    "embedAlt": "简历 PDF 预览"
+  },
+  "contact": {
+    "title": "联系我",
+    "subtitle": "最快2026年3月到岗，寻找风险分析、金融科技或量化金融方向的实习/全职岗位，欢迎联系！",
+    "email": "邮箱",
+    "linkedin": "领英",
+    "github": "GitHub",
+    "phone": "电话",
+    "formTitle": "发送消息",
+    "formName": "您的姓名",
+    "formEmail": "您的邮箱",
+    "formSubject": "主题",
+    "formMessage": "消息内容",
+    "formSubmit": "发送消息",
+    "location": "所在地",
+    "locationValue": "巴黎 / 上海 / 远程"
+  },
+  "footer": {
+    "rights": "保留所有权利。",
+    "builtWith": "使用 Next.js 和 Tailwind CSS 构建"
+  },
+  "workpaperTool": {
+    "title": "工作底稿质量检查 + 抽样助手",
+    "subtitle": "评估您的审计工作底稿质量并获取可操作的建议",
+    "exampleBtn": "加载示例",
+    "clearBtn": "清空表单",
+    "analyzeBtn": "分析工作底稿",
+    "saveBtn": "保存",
+    "saveAndAnalyzeBtn": "保存并分析",
+    "saving": "保存中...",
+    "saved": "已保存！",
+    "exportBtn": "导出为 Markdown",
+    "copyBtn": "复制到剪贴板",
+    "copied": "已复制！",
+    "testResultPass": "通过",
+    "testResultFail": "失败",
+    "testResultException": "例外",
+    "fields": {
+      "title": "工作底稿标题",
+      "titleHelp": "为工作底稿取一个描述性的标题",
+      "auditObjective": "审计目标",
+      "auditObjectiveHelp": "我们要保证什么？明确说明正在测试的控制或流程。",
+      "riskStatement": "风险陈述",
+      "riskStatementHelp": "如果控制失效会出什么问题？描述潜在影响。",
+      "controlDescription": "控制描述",
+      "controlDescriptionHelp": "描述控制：责任人、频率、关键步骤以及如何缓解风险。",
+      "controlType": "控制类型",
+      "controlTypeHelp": "预防性控制防止错误发生；检测性控制在错误发生后识别。",
+      "preventive": "预防性",
+      "detective": "检测性",
+      "controlFrequency": "控制频率",
+      "controlFrequencyHelp": "控制执行的频率？",
+      "daily": "每日",
+      "weekly": "每周",
+      "monthly": "每月",
+      "quarterly": "每季度",
+      "adHoc": "临时",
+      "populationDescription": "总体描述",
+      "populationDescriptionHelp": "总体是什么？包括时间段、数据来源和总数（如果已知）。",
+      "samplingMethod": "抽样方法",
+      "samplingMethodHelp": "如何选择测试项目？",
+      "attribute": "属性抽样",
+      "judgmental": "判断抽样",
+      "random": "随机抽样",
+      "sampleSize": "样本量",
+      "sampleSizeHelp": "测试的项目数量",
+      "testProcedure": "测试程序",
+      "testProcedureHelp": "分步程序：数据来源、选择标准、什么构成例外。",
+      "evidenceCaptured": "获取的证据",
+      "evidenceCapturedHelp": "获取了什么证据？存储在哪里？包括链接或文件引用。",
+      "testResult": "测试结果",
+      "testResultHelp": "测试的总体结果",
+      "pass": "通过",
+      "fail": "失败",
+      "exception": "例外",
+      "exceptionDetail": "例外详情",
+      "exceptionDetailHelp": "如果结果是失败/例外则必填。描述出了什么问题。",
+      "conclusion": "结论",
+      "conclusionHelp": "包括：标准、情况、原因、影响和建议。"
+    },
+    "results": {
+      "title": "分析结果",
+      "qualityScore": "工作底稿质量评分",
+      "rubricBreakdown": "评分细则",
+      "findings": "发现问题",
+      "suggestions": "改进建议",
+      "samplingAssistant": "抽样助手",
+      "suggestedSampleSize": "建议样本量",
+      "populationSize": "总体规模",
+      "confidenceLevel": "置信水平",
+      "tolerableDeviation": "可容忍偏差率",
+      "categories": {
+        "completeness": "完整性",
+        "traceability": "可追溯性",
+        "samplingRationale": "抽样理由",
+        "evidenceSufficiency": "证据充分性",
+        "conclusionQuality": "结论质量",
+        "professionalTone": "专业语气"
+      },
+      "severity": {
+        "high": "高",
+        "medium": "中",
+        "low": "低"
+      }
+    }
+  },
+  "theme": {
+    "light": "浅色",
+    "dark": "深色"
+  },
+  "language": {
+    "en": "English",
+    "zh": "中文"
+  },
+  "dashboard": {
+    "title": "审计仪表板",
+    "overview": "概览",
+    "workpapers": "工作底稿",
+    "projects": "项目",
+    "risks": "风险",
+    "totalProjects": "项目总数",
+    "activeProjects": "进行中",
+    "totalWorkpapers": "工作底稿总数",
+    "pendingReview": "待审核",
+    "totalRisks": "风险总数",
+    "highRisks": "高风险",
+    "averageQcScore": "平均QC评分",
+    "qcTrend": "QC评分趋势",
+    "categoryAnalysis": "类别分析",
+    "scoreDistribution": "评分分布",
+    "riskMatrix": "风险矩阵",
+    "noData": "暂无数据。生成演示数据开始使用。",
+    "seedData": "生成演示数据",
+    "seeding": "生成中...",
+    "workpapersTitle": "工作底稿分析",
+    "recentWorkpapers": "最近的工作底稿",
+    "viewAll": "查看全部",
+    "noWorkpapers": "未找到工作底稿",
+    "status": "状态",
+    "testResult": "结果",
+    "score": "评分",
+    "date": "日期",
+    "projectsTitle": "项目看板",
+    "noProjects": "未找到项目",
+    "planning": "计划中",
+    "fieldwork": "现场工作",
+    "review": "复核",
+    "reporting": "报告",
+    "completed": "已完成",
+    "milestones": "里程碑",
+    "priority": "优先级",
+    "owner": "负责人",
+    "dueDate": "截止日期",
+    "risksTitle": "风险分析",
+    "noRisks": "未找到风险",
+    "mitigated": "已缓解",
+    "pending": "待缓解",
+    "riskName": "风险名称",
+    "category": "类别",
+    "inherentRisk": "固有风险",
+    "residualRisk": "剩余风险",
+    "controlEffectiveness": "控制有效性",
+    "mitigationStatus": "缓解状态"
+  },
+  "workpapers": {
+    "title": "工作底稿",
+    "newWorkpaper": "新建工作底稿",
+    "noWorkpapers": "未找到工作底稿。创建第一个工作底稿开始使用。",
+    "filterByStatus": "按状态筛选",
+    "filterByResult": "按结果筛选",
+    "all": "全部",
+    "backToList": "返回工作底稿列表",
+    "notFound": "未找到工作底稿",
+    "details": "工作底稿详情",
+    "qcHistory": "QC分析历史",
+    "runAnalysis": "执行QC分析",
+    "analyzing": "分析中...",
+    "version": "版本",
+    "analyzedBy": "分析人",
+    "noAnalyses": "暂无QC分析。执行分析以评估此工作底稿。",
+    "columns": {
+      "title": "标题",
+      "project": "项目",
+      "status": "状态",
+      "testResult": "测试结果",
+      "qcScore": "QC评分",
+      "lastUpdated": "最后更新"
+    }
+  },
+  "research": {
+    "title": "研究与分析",
+    "subtitle": "数据分析与行业研究",
+    "description": "涵盖金融科技、风险与市场情报的商业分析报告、机器学习项目和数据仪表板。",
+    "featuredWork": "精选作品",
+    "methods": "方法论",
+    "tooling": "工具栈",
+    "downloadPdf": "下载PDF",
+    "contact": "联系我",
+    "backToResearch": "返回研究",
+    "cards": {
+      "dashboard": {
+        "title": "KPI仪表板",
+        "description": "交互式指标可视化：DAU、留存率、交易量和费用追踪。"
+      },
+      "businessAnalysis": {
+        "title": "支付行业竞争分析报告",
+        "description": "中国第三方支付行业深度市场调研 — 竞争格局、渠道归因、用户研究与战略建议。"
+      },
+      "mlProject": {
+        "title": "机器学习流失预测",
+        "description": "基于XGBoost的用户流失预测模型，AUC达89.3%，通过精准留存干预将月流失率降低35%。"
+      }
+    },
+    "methodsList": {
+      "marketMap": "市场图谱",
+      "kpiTree": "KPI树设计",
+      "riskRegister": "风险登记册",
+      "narrativeHooks": "叙事钩子"
+    },
+    "toolingList": {
+      "python": "Python",
+      "sql": "SQL",
+      "powerbi": "Power BI / DAX",
+      "vba": "VBA / Excel",
+      "llm": "LLM辅助分析",
+      "lightgbm": "LightGBM / XGBoost"
+    },
+    "dashboard": {
+      "title": "金融科技KPI仪表板",
+      "subtitle": "交互式指标可视化（演示用模拟数据）",
+      "kpiCards": "核心指标（最新）",
+      "trends": "趋势分析",
+      "insightGenerator": "洞察生成器",
+      "insightPlaceholder": "输入您的观察（例如：本周DAU增长20%）",
+      "generateInsight": "生成洞察",
+      "metrics": {
+        "dau": "日活跃用户",
+        "newUsers": "新用户",
+        "retentionD1": "次日留存",
+        "retentionD7": "7日留存",
+        "txCount": "交易量",
+        "fees": "费用（美元）"
+      }
+    },
+    "businessAnalysis": {
+      "title": "中国支付行业竞争与战略分析",
+      "sections": {
+        "tldr": "摘要",
+        "marketOverview": "市场概况与监管环境",
+        "competitiveLandscape": "竞争格局分析",
+        "channelAttribution": "渠道归因分析",
+        "userResearch": "用户研究（问卷N=2000 + 访谈N=50）",
+        "kpiFramework": "KPI监控指标体系",
+        "recommendations": "战略建议"
+      }
+    },
+    "mlProject": {
+      "title": "支付平台用户流失预测（XGBoost）",
+      "sections": {
+        "overview": "项目概述",
+        "dataset": "数据集与预处理",
+        "featureEngineering": "特征工程",
+        "modelComparison": "模型对比",
+        "results": "结果与评估",
+        "businessImpact": "商业价值",
+        "conclusion": "结论"
+      }
+    }
+  },
+  "userGrowthTool": {
+    "title": "用户增长分析平台",
+    "subtitle": "交互式产品运营分析 — AARRR 漏斗、队列留存、渠道归因、A/B 测试",
+    "exampleBtn": "加载示例",
+    "clearBtn": "清空",
+    "exportBtn": "导出为 Markdown",
+    "copyBtn": "复制到剪贴板",
+    "copied": "已复制！",
+    "tabs": {
+      "aarrr": "AARRR 漏斗",
+      "cohort": "队列留存",
+      "channel": "渠道归因",
+      "abtest": "A/B 测试计算器",
+      "competitive": "竞品矩阵"
+    },
+    "aarrr": {
+      "title": "AARRR 漏斗分析",
+      "totalVisitors": "总访问量",
+      "signups": "注册用户（获取）",
+      "activated": "激活用户",
+      "retained": "留存用户（D7）",
+      "paying": "付费用户",
+      "referrals": "推荐用户",
+      "conversionRate": "转化率",
+      "cac": "获客成本（CAC）",
+      "adSpend": "广告总支出",
+      "analyzeBtn": "分析漏斗",
+      "ltvCac": "LTV/CAC比",
+      "kFactor": "K因子（病毒系数）",
+      "overallConversion": "整体转化率",
+      "stageDetail": "阶段详情",
+      "dropoff": "流失率"
+    },
+    "cohort": {
+      "title": "队列留存分析",
+      "cohortDate": "队列",
+      "cohortSize": "用户数",
+      "d0": "D0",
+      "d1": "D1",
+      "d3": "D3",
+      "d7": "D7",
+      "d14": "D14",
+      "d30": "D30",
+      "avgRetention": "平均留存率",
+      "bestCohort": "最佳队列",
+      "worstCohort": "最差队列",
+      "retentionCurve": "留存曲线"
+    },
+    "channel": {
+      "title": "渠道归因分析",
+      "channelName": "渠道",
+      "users": "获取用户",
+      "spend": "花费（$）",
+      "cac": "CAC（$）",
+      "ltv": "LTV（$）",
+      "roi": "ROI（%）",
+      "convRate": "转化率（%）",
+      "addChannel": "添加渠道",
+      "removeChannel": "删除",
+      "analyzeBtn": "分析渠道",
+      "blendedCAC": "综合获客成本",
+      "blendedROI": "综合投资回报率",
+      "topChannel": "最优渠道",
+      "totalSpend": "总支出",
+      "roiComparison": "ROI对比",
+      "spendDistribution": "支出分布"
+    },
+    "abtest": {
+      "title": "A/B 测试显著性计算器",
+      "control": "对照组（A）",
+      "variant": "实验组（B）",
+      "visitors": "访客数",
+      "conversions": "转化数",
+      "confidenceLevel": "置信水平",
+      "calculateBtn": "计算显著性",
+      "result": {
+        "conversionRate": "转化率",
+        "improvement": "相对提升",
+        "pValue": "P值",
+        "significant": "统计显著",
+        "notSignificant": "不显著",
+        "recommendation": "建议",
+        "deployVariant": "部署实验组 B — 检测到统计显著的改进",
+        "keepControl": "保持对照组 A — 未发现显著差异",
+        "needMoreData": "需要更多数据 — 结果尚不确定",
+        "confidenceInterval": "95% 置信区间"
+      }
+    },
+    "competitive": {
+      "title": "竞品功能矩阵",
+      "product": "产品",
+      "addProduct": "添加产品",
+      "removeProduct": "删除",
+      "dimensions": {
+        "userExperience": "用户体验",
+        "featureRichness": "功能丰富度",
+        "performance": "性能",
+        "pricing": "定价",
+        "ecosystem": "生态系统",
+        "innovation": "创新力",
+        "growth": "用户增长",
+        "retention": "留存",
+        "monetization": "商业化",
+        "product": "产品",
+        "brand": "品牌"
+      },
+      "scoreHelp": "每个维度评分 1-10",
+      "avgScore": "平均分"
+    },
+    "noData": "暂无数据，请加载示例数据。",
+    "competitor": {
+      "title": "竞品矩阵",
+      "product": "产品",
+      "dimension": "维度",
+      "score": "评分"
+    },
+    "overview": {
+      "noData": "加载示例数据或分析数据集后，此处将显示洞察结果。",
+      "totalUsers": "总注册用户",
+      "signupRate": "注册率",
+      "activationRate": "激活率",
+      "d7Retention": "D7留存率",
+      "cac": "获客成本",
+      "ltvCac": "LTV/CAC比",
+      "payingConversion": "付费转化率",
+      "topChannel": "最优渠道",
+      "blendedROI": "综合ROI",
+      "funnelOverview": "漏斗概览",
+      "retentionTrend": "留存趋势",
+      "channelPerformance": "渠道表现",
+      "keyInsights": "关键洞察"
+    }
+  },
+  "amlSentinel": {
+    "views": {
+      "alerts": "预警队列",
+      "case": "案件概览",
+      "network": "关系调查",
+      "rag": "监管知识库",
+      "str": "STR 报告"
+    },
+    "summary": {
+      "total": "预警总数",
+      "critical": "极高风险",
+      "highRisk": "高风险",
+      "pbocFilings": "PBOC 申报触发"
+    },
+    "summary": {
+      "total": "预警总数",
+      "critical": "极高风险",
+      "highRisk": "高风险",
+      "pbocFilings": "PBOC 申报触发"
+    },
+    "alerts": {
+      "title": "预警队列",
+      "subtitle": "PBOC 阈值规则 + DGraph-Fin 预计算风险评分",
+      "filterAll": "全部",
+      "filterCritical": "极高风险",
+      "filterHigh": "高风险",
+      "filterMedium": "中风险",
+      "filterLow": "低风险",
+      "selectToView": "点击预警查看案件",
+      "columns": {
+        "id": "预警编号",
+        "date": "日期",
+        "amount": "金额",
+        "type": "类型",
+        "severity": "风险等级",
+        "rules": "触发规则",
+        "score": "风险评分"
+      },
+      "rules": {
+        "PBOC_LARGE_CASH": "大额现金(>=5万)",
+        "PBOC_LARGE_TRANSFER": "大额转账(>=200万)",
+        "HIGH_RISK_COUNTRY": "高风险管辖区",
+        "SMURFING": "化整为零",
+        "RAPID_MOVEMENT": "资金快速流转",
+        "FREQUENT_CASH": "高频现金"
+      }
+    },
+    "alerts": {
+      "title": "预警队列",
+      "subtitle": "基于 PBOC 阈值规则与模拟 DGraph-Fin 风险评分的预警列表",
+      "filterAll": "全部",
+      "filterCritical": "极高风险",
+      "filterHigh": "高风险",
+      "filterMedium": "中风险",
+      "filterLow": "低风险",
+      "selectToView": "点击一条预警打开对应案件",
+      "noRules": "无",
+      "transactionTypes": {
+        "transfer": "转账",
+        "cash": "现金",
+        "remittance": "汇款",
+        "pos": "POS"
+      },
+      "columns": {
+        "id": "预警编号",
+        "date": "日期",
+        "amount": "金额",
+        "type": "类型",
+        "severity": "风险等级",
+        "rules": "触发规则",
+        "score": "风险评分"
+      },
+      "rules": {
+        "PBOC_LARGE_CASH": "大额现金（>= CNY 50k）",
+        "PBOC_LARGE_TRANSFER": "大额转账（>= CNY 2m）",
+        "HIGH_RISK_COUNTRY": "高风险司法辖区",
+        "SMURFING": "化整为零",
+        "RAPID_MOVEMENT": "快速转移",
+        "FREQUENT_CASH": "高频现金"
+      }
+    },
+    "case": {
+      "title": "案件概览",
+      "backToAlerts": "返回预警队列",
+      "noCase": "请选择一条预警查看案件",
+      "status": {
+        "new_alert": "新预警",
+        "under_review": "调查中",
+        "need_more_evidence": "需补充证据",
+        "ready_for_supervisor_review": "待主管审核",
+        "closed_false_positive": "已关闭（误报）",
+        "ready_for_reporting": "待上报"
+      },
+      "urgency": {
+        "normal": "普通",
+        "priority": "优先",
+        "immediate": "立即"
+      },
+      "keyFindings": "关键发现",
+      "suggestedTypologies": "建议洗钱类型",
+      "reportingDeadline": "上报截止日期",
+      "analystNotes": "分析师备注",
+      "toInvestigation": "打开关系调查",
+      "toStr": "起草 STR",
+      "linkedAlerts": "关联预警"
+    },
+    "case": {
+      "title": "案件概览",
+      "backToAlerts": "返回预警队列",
+      "noCase": "请选择一条预警查看案件",
+      "reportingUrgency": "上报紧迫性",
+      "status": {
+        "new_alert": "新预警",
+        "under_review": "调查中",
+        "need_more_evidence": "待补充证据",
+        "ready_for_supervisor_review": "待主管复核",
+        "closed_false_positive": "已关闭误报",
+        "ready_for_reporting": "待上报"
+      },
+      "urgency": {
+        "normal": "正常",
+        "priority": "优先",
+        "immediate": "立即"
+      },
+      "keyFindings": "关键发现",
+      "suggestedTypologies": "建议洗钱类型",
+      "reportingDeadline": "上报截止日期",
+      "analystNotes": "分析师备注",
+      "toInvestigation": "打开关系调查",
+      "toStr": "起草 STR",
+      "linkedAlerts": "关联预警"
+    },
+    "network": {
+      "title": "资金关联网络图",
+      "subtitle": "IBM AML HI-Small 洗钱类型标注 — 点击节点探索",
+      "noCase": "打开案件以高亮相关网络",
+      "categories": {
+        "normal": "正常账户",
+        "suspicious": "可疑账户",
+        "fraud": "确认欺诈"
+      },
+      "typologies": {
+        "all": "全部",
+        "fanOut": "扇形分散",
+        "fanIn": "资金归集",
+        "cycle": "循环对倒"
+      },
+      "checklist": "调查检查清单",
+      "nodeDetail": "账户详情",
+      "riskScore": "风险评分",
+      "volume": "交易量"
+    },
+    "network": {
+      "title": "资金关联网络",
+      "subtitle": "支持扇出、归集与循环模式筛选的关系图",
+      "noCase": "打开案件后可高亮相关账户",
+      "categories": {
+        "normal": "正常账户",
+        "suspicious": "可疑账户",
+        "fraud": "确认风险"
+      },
+      "typologies": {
+        "all": "全部",
+        "fanOut": "扇出",
+        "fanIn": "归集",
+        "cycle": "循环"
+      },
+      "checklist": "调查检查清单",
+      "nodeDetail": "账户详情",
+      "riskScore": "风险评分",
+      "volume": "交易量",
+      "account": "账户",
+      "category": "类别",
+      "typology": "类型",
+      "emptyState": "点击节点查看账户详情",
+      "requiredItems": "必做项",
+      "highlighting": "高亮 {caseId}"
+    },
+    "rag": {
+      "title": "监管知识库问答",
+      "subtitle": "反洗钱法 2024 · FATF 中国报告 2019 · KPMG 合规分析 · CAMLMAC 报告",
+      "placeholder": "输入中国反洗钱合规问题...",
+      "submit": "检索",
+      "suggestedQueries": [
+        "单笔现金交易超过多少需要大额申报？",
+        "可疑交易报告的法定上报时限是多少？",
+        "反洗钱法 2024 将哪些机构纳入义务范围？",
+        "FATF 2019 年评估中指出中国的主要风险点是什么？",
+        "未按规定上报可疑交易的法律处罚是什么？",
+        "化整为零交易的认定标准是什么？"
+      ],
+      "pipeline": {
+        "retrieving": "正在检索相关法规",
+        "ranking": "相关度排序",
+        "generating": "正在生成答案"
+      },
+      "retrieved": "检索到的法规",
+      "answer": "答案",
+      "sources": "来源",
+      "error": "检索出错，请重试。",
+      "noResults": "未找到相关法规，请尝试其他关键词。",
+      "demoNote": "演示模式 — Phase 3 配置 ANTHROPIC_API_KEY 后启用实时问答"
+    },
+    "rag": {
+      "title": "监管知识库",
+      "subtitle": "反洗钱法 2024、FATF 中国互评、KPMG 分析与 CAMLMAC 口径",
+      "placeholder": "输入中国反洗钱合规问题...",
+      "submit": "检索",
+      "suggestedQueries": [
+        "现金交易超过多少需要申报？",
+        "可疑交易报告的法定时限是多少？",
+        "2024 版反洗钱法覆盖哪些义务机构？",
+        "FATF 中国互评中指出了哪些重点风险？",
+        "未按规定上报可疑交易会面临什么处罚？",
+        "受益所有人识别要求有哪些变化？"
+      ],
+      "pipeline": {
+        "retrieving": "正在检索相关法规",
+        "ranking": "正在按相关性排序",
+        "generating": "正在生成答案"
+      },
+      "retrieved": "已检索法规",
+      "answer": "答案",
+      "sources": "来源",
+      "error": "检索失败，请稍后重试。",
+      "noResults": "未找到相关法规，请尝试更换关键词。",
+      "demoNote": "演示模式：Phase 3 配置 ANTHROPIC_API_KEY 后可启用实时回答",
+      "demoAnswerTemplate": "[{demoNote}]\n\n最相关的法规摘录来自 {sourceTitle}，{article}：\n\n\"{text}\""
+    },
+    "str": {
+      "title": "可疑交易报告生成",
+      "subtitle": "6 步 AI Agent · CAMLMAC 格式 · claude-sonnet-4-6",
+      "noCase": "请从预警队列中打开一个案件",
+      "generate": "生成 STR 草稿",
+      "generating": "生成中...",
+      "agentSteps": {
+        "step1": "提取案件基本信息",
+        "step2": "分析账户历史行为",
+        "step3": "检索适用监管条文",
+        "step4": "识别洗钱类型",
+        "step5": "评估上报紧迫性",
+        "step6": "起草 CAMLMAC 格式 STR"
+      },
+      "report": "生成报告",
+      "copy": "复制",
+      "copied": "已复制",
+      "disclaimer": "本输出仅供演示，不构成实际监管申报文件，请勿向 CAMLMAC 提交。",
+      "demoNote": "演示模式 — Phase 3 配置 ANTHROPIC_API_KEY 后启用实时 Agent"
+    },
+    "str": {
+      "title": "STR 生成",
+      "subtitle": "六步 AI 辅助的 CAMLMAC 报告起草流程",
+      "noCase": "请先从预警队列打开一个案件",
+      "generate": "生成 STR 草稿",
+      "generating": "生成中...",
+      "currentCase": "当前案件",
+      "agentLog": "Agent 执行日志",
+      "placeholder": "点击“生成 STR 草稿”开始...",
+      "agentSteps": {
+        "step1": "提取案件信息",
+        "step2": "复核关联预警",
+        "step3": "核对监管依据",
+        "step4": "判断可疑类型",
+        "step5": "评估上报时限",
+        "step6": "起草报告"
+      },
+      "report": "生成报告",
+      "copy": "复制",
+      "copied": "已复制",
+      "disclaimer": "本输出仅用于演示，不构成真实监管申报文件，请勿直接提交 CAMLMAC。",
+      "demoNote": "演示模式：Phase 3 将接入实时 Agent 起草",
+      "template": {
+        "title": "可疑交易报告（草稿）",
+        "demoOnly": "仅供演示，请勿直接提交 CAMLMAC。",
+        "institution": "报告机构",
+        "institutionValue": "示例银行",
+        "reportDate": "报告日期",
+        "caseId": "案件编号",
+        "subjectSection": "可疑主体信息",
+        "account": "账户",
+        "accountType": "账户类型",
+        "individual": "个人",
+        "corporate": "企业",
+        "riskLevel": "风险等级",
+        "transactionSection": "可疑交易摘要",
+        "transactionId": "交易编号",
+        "transactionDate": "交易日期",
+        "amount": "金额",
+        "transactionType": "交易类型",
+        "triggeredRules": "触发规则",
+        "activitySection": "可疑行为描述",
+        "suggestedTypologies": "建议可疑类型",
+        "regulatorySection": "监管依据",
+        "article31": "- 《反洗钱法（2024）》第三十一条：大额现金和转账交易触发申报义务。",
+        "article33": "- 《反洗钱法（2024）》第三十三条：可疑交易应在五个工作日内上报，紧急情形应立即上报。",
+        "urgencySection": "紧迫性评估",
+        "urgency": "上报紧迫性",
+        "deadline": "建议截止日期",
+        "recommendationSection": "分析师建议",
+        "recommendationText": "建议提交主管复核后尽快推进上报。紧迫性：{urgency}。目标截止日：{deadline}。",
+        "none": "无",
+        "notAvailable": "暂无",
+        "footer": "由 AML Sentinel mock mode 生成，仅供分析参考。"
+      }
+    }
+  }
+}

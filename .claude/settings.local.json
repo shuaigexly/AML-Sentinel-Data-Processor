@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd /c \"dir /a D:\\\\TradingBots\\\\claude\\\\aduit_program\")",
+      "Bash(python \"C:/Users/yhxu4/extract_all_sessions.py\")",
+      "Bash(\"D:/s_keys2.txt\")",
+      "Read(//d//**)",
+      "Bash(TMPDIR=D:/tmp TMP=D:/tmp TEMP=D:/tmp NODE_OPTIONS=--max-old-space-size=4096 npm run build)",
+      "Bash(TMPDIR=D:/tmp TMP=D:/tmp TEMP=D:/tmp vercel --prod)"
+    ]
+  }
+}

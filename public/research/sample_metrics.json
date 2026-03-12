@@ -1,0 +1,820 @@
+{
+  "metadata": {
+    "platform": "Allinpay Payment Platform",
+    "startDate": "2022-07-01",
+    "endDate": "2023-01-31",
+    "dataSource": "Simulated demo data for portfolio showcase"
+  },
+  "daily": [
+    {
+      "date": "2022-07-01",
+      "daily_transactions": 45200,
+      "transaction_volume": 12500000,
+      "active_merchants": 8200,
+      "user_retention": 0.72,
+      "avg_transaction_value": 276.5,
+      "revenue": 187500
+    },
+    {
+      "date": "2022-07-02",
+      "daily_transactions": 31850,
+      "transaction_volume": 8820000,
+      "active_merchants": 7580,
+      "user_retention": 0.71,
+      "avg_transaction_value": 302.4,
+      "revenue": 132300
+    },
+    {
+      "date": "2022-07-03",
+      "daily_transactions": 29400,
+      "transaction_volume": 8150000,
+      "active_merchants": 7510,
+      "user_retention": 0.73,
+      "avg_transaction_value": 311.8,
+      "revenue": 122250
+    },
+    {
+      "date": "2022-07-04",
+      "daily_transactions": 46100,
+      "transaction_volume": 12780000,
+      "active_merchants": 8310,
+      "user_retention": 0.72,
+      "avg_transaction_value": 277.2,
+      "revenue": 191700
+    },
+    {
+      "date": "2022-07-05",
+      "daily_transactions": 44800,
+      "transaction_volume": 12350000,
+      "active_merchants": 8150,
+      "user_retention": 0.71,
+      "avg_transaction_value": 275.7,
+      "revenue": 185250
+    },
+    {
+      "date": "2022-07-06",
+      "daily_transactions": 47300,
+      "transaction_volume": 13100000,
+      "active_merchants": 8420,
+      "user_retention": 0.73,
+      "avg_transaction_value": 277.0,
+      "revenue": 196500
+    },
+    {
+      "date": "2022-07-07",
+      "daily_transactions": 46500,
+      "transaction_volume": 12870000,
+      "active_merchants": 8280,
+      "user_retention": 0.72,
+      "avg_transaction_value": 276.8,
+      "revenue": 193050
+    },
+    {
+      "date": "2022-07-08",
+      "daily_transactions": 48200,
+      "transaction_volume": 13350000,
+      "active_merchants": 8390,
+      "user_retention": 0.73,
+      "avg_transaction_value": 277.0,
+      "revenue": 200250
+    },
+    {
+      "date": "2022-07-09",
+      "daily_transactions": 33100,
+      "transaction_volume": 9180000,
+      "active_merchants": 7690,
+      "user_retention": 0.72,
+      "avg_transaction_value": 308.5,
+      "revenue": 137700
+    },
+    {
+      "date": "2022-07-10",
+      "daily_transactions": 30200,
+      "transaction_volume": 8480000,
+      "active_merchants": 7620,
+      "user_retention": 0.72,
+      "avg_transaction_value": 315.2,
+      "revenue": 127200
+    },
+    {
+      "date": "2022-07-11",
+      "daily_transactions": 47800,
+      "transaction_volume": 13250000,
+      "active_merchants": 8450,
+      "user_retention": 0.73,
+      "avg_transaction_value": 277.2,
+      "revenue": 198750
+    },
+    {
+      "date": "2022-07-12",
+      "daily_transactions": 46200,
+      "transaction_volume": 12800000,
+      "active_merchants": 8380,
+      "user_retention": 0.72,
+      "avg_transaction_value": 277.1,
+      "revenue": 192000
+    },
+    {
+      "date": "2022-07-13",
+      "daily_transactions": 48900,
+      "transaction_volume": 13550000,
+      "active_merchants": 8520,
+      "user_retention": 0.74,
+      "avg_transaction_value": 277.1,
+      "revenue": 203250
+    },
+    {
+      "date": "2022-07-14",
+      "daily_transactions": 47100,
+      "transaction_volume": 13050000,
+      "active_merchants": 8340,
+      "user_retention": 0.73,
+      "avg_transaction_value": 277.0,
+      "revenue": 195750
+    },
+    {
+      "date": "2022-07-15",
+      "daily_transactions": 49500,
+      "transaction_volume": 13720000,
+      "active_merchants": 8560,
+      "user_retention": 0.74,
+      "avg_transaction_value": 277.2,
+      "revenue": 205800
+    },
+    {
+      "date": "2022-07-16",
+      "daily_transactions": 34200,
+      "transaction_volume": 9520000,
+      "active_merchants": 7850,
+      "user_retention": 0.73,
+      "avg_transaction_value": 305.8,
+      "revenue": 142800
+    },
+    {
+      "date": "2022-07-17",
+      "daily_transactions": 31500,
+      "transaction_volume": 8750000,
+      "active_merchants": 7780,
+      "user_retention": 0.72,
+      "avg_transaction_value": 318.6,
+      "revenue": 131250
+    },
+    {
+      "date": "2022-07-18",
+      "daily_transactions": 49200,
+      "transaction_volume": 13680000,
+      "active_merchants": 8620,
+      "user_retention": 0.74,
+      "avg_transaction_value": 278.0,
+      "revenue": 205200
+    },
+    {
+      "date": "2022-07-19",
+      "daily_transactions": 50100,
+      "transaction_volume": 13920000,
+      "active_merchants": 8710,
+      "user_retention": 0.74,
+      "avg_transaction_value": 277.8,
+      "revenue": 208800
+    },
+    {
+      "date": "2022-07-20",
+      "daily_transactions": 48600,
+      "transaction_volume": 13480000,
+      "active_merchants": 8580,
+      "user_retention": 0.73,
+      "avg_transaction_value": 277.4,
+      "revenue": 202200
+    },
+    {
+      "date": "2022-07-21",
+      "daily_transactions": 51200,
+      "transaction_volume": 14230000,
+      "active_merchants": 8750,
+      "user_retention": 0.75,
+      "avg_transaction_value": 277.9,
+      "revenue": 213450
+    },
+    {
+      "date": "2022-07-22",
+      "daily_transactions": 50400,
+      "transaction_volume": 14010000,
+      "active_merchants": 8680,
+      "user_retention": 0.74,
+      "avg_transaction_value": 278.0,
+      "revenue": 210150
+    },
+    {
+      "date": "2022-07-23",
+      "daily_transactions": 35600,
+      "transaction_volume": 9920000,
+      "active_merchants": 8010,
+      "user_retention": 0.74,
+      "avg_transaction_value": 310.2,
+      "revenue": 148800
+    },
+    {
+      "date": "2022-07-24",
+      "daily_transactions": 32800,
+      "transaction_volume": 9150000,
+      "active_merchants": 7940,
+      "user_retention": 0.73,
+      "avg_transaction_value": 322.4,
+      "revenue": 137250
+    },
+    {
+      "date": "2022-07-25",
+      "daily_transactions": 51800,
+      "transaction_volume": 14420000,
+      "active_merchants": 8820,
+      "user_retention": 0.75,
+      "avg_transaction_value": 278.4,
+      "revenue": 216300
+    },
+    {
+      "date": "2022-07-26",
+      "daily_transactions": 50500,
+      "transaction_volume": 14050000,
+      "active_merchants": 8760,
+      "user_retention": 0.74,
+      "avg_transaction_value": 278.2,
+      "revenue": 210750
+    },
+    {
+      "date": "2022-07-27",
+      "daily_transactions": 52400,
+      "transaction_volume": 14610000,
+      "active_merchants": 8900,
+      "user_retention": 0.75,
+      "avg_transaction_value": 278.8,
+      "revenue": 219150
+    },
+    {
+      "date": "2022-07-28",
+      "daily_transactions": 53100,
+      "transaction_volume": 14820000,
+      "active_merchants": 8960,
+      "user_retention": 0.76,
+      "avg_transaction_value": 279.1,
+      "revenue": 222300
+    },
+    {
+      "date": "2022-07-29",
+      "daily_transactions": 51600,
+      "transaction_volume": 14380000,
+      "active_merchants": 8850,
+      "user_retention": 0.75,
+      "avg_transaction_value": 278.7,
+      "revenue": 215700
+    },
+    {
+      "date": "2022-07-30",
+      "daily_transactions": 36800,
+      "transaction_volume": 10280000,
+      "active_merchants": 8180,
+      "user_retention": 0.75,
+      "avg_transaction_value": 313.5,
+      "revenue": 154200
+    },
+    {
+      "date": "2022-07-31",
+      "daily_transactions": 34100,
+      "transaction_volume": 9520000,
+      "active_merchants": 8100,
+      "user_retention": 0.74,
+      "avg_transaction_value": 325.1,
+      "revenue": 142800
+    },
+    {
+      "date": "2022-08-01",
+      "daily_transactions": 53800,
+      "transaction_volume": 15080000,
+      "active_merchants": 9050,
+      "user_retention": 0.76,
+      "avg_transaction_value": 280.3,
+      "revenue": 226200
+    },
+    {
+      "date": "2022-08-02",
+      "daily_transactions": 54500,
+      "transaction_volume": 15280000,
+      "active_merchants": 9120,
+      "user_retention": 0.76,
+      "avg_transaction_value": 280.4,
+      "revenue": 229200
+    },
+    {
+      "date": "2022-08-03",
+      "daily_transactions": 52900,
+      "transaction_volume": 14820000,
+      "active_merchants": 8980,
+      "user_retention": 0.75,
+      "avg_transaction_value": 280.2,
+      "revenue": 222300
+    },
+    {
+      "date": "2022-08-04",
+      "daily_transactions": 55200,
+      "transaction_volume": 15490000,
+      "active_merchants": 9180,
+      "user_retention": 0.76,
+      "avg_transaction_value": 280.6,
+      "revenue": 232350
+    },
+    {
+      "date": "2022-08-05",
+      "daily_transactions": 54100,
+      "transaction_volume": 15170000,
+      "active_merchants": 9110,
+      "user_retention": 0.76,
+      "avg_transaction_value": 280.4,
+      "revenue": 227550
+    },
+    {
+      "date": "2022-08-06",
+      "daily_transactions": 37900,
+      "transaction_volume": 10650000,
+      "active_merchants": 8370,
+      "user_retention": 0.76,
+      "avg_transaction_value": 316.8,
+      "revenue": 159750
+    },
+    {
+      "date": "2022-08-07",
+      "daily_transactions": 35400,
+      "transaction_volume": 9980000,
+      "active_merchants": 8290,
+      "user_retention": 0.75,
+      "avg_transaction_value": 328.3,
+      "revenue": 149700
+    },
+    {
+      "date": "2022-08-08",
+      "daily_transactions": 55800,
+      "transaction_volume": 15680000,
+      "active_merchants": 9250,
+      "user_retention": 0.76,
+      "avg_transaction_value": 281.1,
+      "revenue": 235200
+    },
+    {
+      "date": "2022-08-09",
+      "daily_transactions": 56500,
+      "transaction_volume": 15890000,
+      "active_merchants": 9320,
+      "user_retention": 0.77,
+      "avg_transaction_value": 281.2,
+      "revenue": 238350
+    },
+    {
+      "date": "2022-08-10",
+      "daily_transactions": 54700,
+      "transaction_volume": 15370000,
+      "active_merchants": 9190,
+      "user_retention": 0.76,
+      "avg_transaction_value": 281.0,
+      "revenue": 230550
+    },
+    {
+      "date": "2022-08-11",
+      "daily_transactions": 57200,
+      "transaction_volume": 16090000,
+      "active_merchants": 9380,
+      "user_retention": 0.77,
+      "avg_transaction_value": 281.3,
+      "revenue": 241350
+    },
+    {
+      "date": "2022-08-12",
+      "daily_transactions": 55900,
+      "transaction_volume": 15720000,
+      "active_merchants": 9280,
+      "user_retention": 0.76,
+      "avg_transaction_value": 281.2,
+      "revenue": 235800
+    },
+    {
+      "date": "2022-08-13",
+      "daily_transactions": 39200,
+      "transaction_volume": 11050000,
+      "active_merchants": 8550,
+      "user_retention": 0.77,
+      "avg_transaction_value": 318.4,
+      "revenue": 165750
+    },
+    {
+      "date": "2022-08-14",
+      "daily_transactions": 36500,
+      "transaction_volume": 10280000,
+      "active_merchants": 8480,
+      "user_retention": 0.76,
+      "avg_transaction_value": 330.7,
+      "revenue": 154200
+    },
+    {
+      "date": "2022-08-15",
+      "daily_transactions": 57800,
+      "transaction_volume": 16280000,
+      "active_merchants": 9450,
+      "user_retention": 0.77,
+      "avg_transaction_value": 281.7,
+      "revenue": 244200
+    },
+    {
+      "date": "2022-08-16",
+      "daily_transactions": 58400,
+      "transaction_volume": 16470000,
+      "active_merchants": 9520,
+      "user_retention": 0.77,
+      "avg_transaction_value": 282.0,
+      "revenue": 247050
+    },
+    {
+      "date": "2022-08-17",
+      "daily_transactions": 56800,
+      "transaction_volume": 16000000,
+      "active_merchants": 9390,
+      "user_retention": 0.76,
+      "avg_transaction_value": 281.7,
+      "revenue": 240000
+    },
+    {
+      "date": "2022-08-18",
+      "daily_transactions": 59100,
+      "transaction_volume": 16680000,
+      "active_merchants": 9580,
+      "user_retention": 0.78,
+      "avg_transaction_value": 282.2,
+      "revenue": 250200
+    },
+    {
+      "date": "2022-08-19",
+      "daily_transactions": 57500,
+      "transaction_volume": 16210000,
+      "active_merchants": 9470,
+      "user_retention": 0.77,
+      "avg_transaction_value": 281.9,
+      "revenue": 243150
+    },
+    {
+      "date": "2022-08-20",
+      "daily_transactions": 40500,
+      "transaction_volume": 11450000,
+      "active_merchants": 8720,
+      "user_retention": 0.77,
+      "avg_transaction_value": 320.6,
+      "revenue": 171750
+    },
+    {
+      "date": "2022-08-21",
+      "daily_transactions": 37800,
+      "transaction_volume": 10680000,
+      "active_merchants": 8640,
+      "user_retention": 0.76,
+      "avg_transaction_value": 332.1,
+      "revenue": 160200
+    },
+    {
+      "date": "2022-08-22",
+      "daily_transactions": 59800,
+      "transaction_volume": 16890000,
+      "active_merchants": 9650,
+      "user_retention": 0.78,
+      "avg_transaction_value": 282.4,
+      "revenue": 253350
+    },
+    {
+      "date": "2022-08-23",
+      "daily_transactions": 60500,
+      "transaction_volume": 17120000,
+      "active_merchants": 9720,
+      "user_retention": 0.78,
+      "avg_transaction_value": 283.0,
+      "revenue": 256800
+    },
+    {
+      "date": "2022-08-24",
+      "daily_transactions": 58200,
+      "transaction_volume": 16450000,
+      "active_merchants": 9580,
+      "user_retention": 0.77,
+      "avg_transaction_value": 282.6,
+      "revenue": 246750
+    },
+    {
+      "date": "2022-08-25",
+      "daily_transactions": 61300,
+      "transaction_volume": 17380000,
+      "active_merchants": 9790,
+      "user_retention": 0.78,
+      "avg_transaction_value": 283.5,
+      "revenue": 260700
+    },
+    {
+      "date": "2022-08-26",
+      "daily_transactions": 59900,
+      "transaction_volume": 16960000,
+      "active_merchants": 9680,
+      "user_retention": 0.78,
+      "avg_transaction_value": 283.1,
+      "revenue": 254400
+    },
+    {
+      "date": "2022-08-27",
+      "daily_transactions": 42100,
+      "transaction_volume": 11950000,
+      "active_merchants": 8920,
+      "user_retention": 0.78,
+      "avg_transaction_value": 322.3,
+      "revenue": 179250
+    },
+    {
+      "date": "2022-08-28",
+      "daily_transactions": 39200,
+      "transaction_volume": 11120000,
+      "active_merchants": 8840,
+      "user_retention": 0.77,
+      "avg_transaction_value": 335.4,
+      "revenue": 166800
+    },
+    {
+      "date": "2022-08-29",
+      "daily_transactions": 61800,
+      "transaction_volume": 17560000,
+      "active_merchants": 9860,
+      "user_retention": 0.78,
+      "avg_transaction_value": 284.1,
+      "revenue": 263400
+    },
+    {
+      "date": "2022-08-30",
+      "daily_transactions": 62500,
+      "transaction_volume": 17780000,
+      "active_merchants": 9930,
+      "user_retention": 0.79,
+      "avg_transaction_value": 284.5,
+      "revenue": 266700
+    },
+    {
+      "date": "2022-08-31",
+      "daily_transactions": 60200,
+      "transaction_volume": 17110000,
+      "active_merchants": 9790,
+      "user_retention": 0.78,
+      "avg_transaction_value": 284.2,
+      "revenue": 256650
+    },
+    {
+      "date": "2022-09-01",
+      "daily_transactions": 63100,
+      "transaction_volume": 17980000,
+      "active_merchants": 10010,
+      "user_retention": 0.79,
+      "avg_transaction_value": 285.0,
+      "revenue": 269700
+    },
+    {
+      "date": "2022-09-02",
+      "daily_transactions": 61500,
+      "transaction_volume": 17510000,
+      "active_merchants": 9900,
+      "user_retention": 0.78,
+      "avg_transaction_value": 284.7,
+      "revenue": 262650
+    },
+    {
+      "date": "2022-09-03",
+      "daily_transactions": 43500,
+      "transaction_volume": 12420000,
+      "active_merchants": 9130,
+      "user_retention": 0.79,
+      "avg_transaction_value": 324.1,
+      "revenue": 186300
+    },
+    {
+      "date": "2022-09-04",
+      "daily_transactions": 40600,
+      "transaction_volume": 11580000,
+      "active_merchants": 9050,
+      "user_retention": 0.78,
+      "avg_transaction_value": 337.8,
+      "revenue": 173700
+    },
+    {
+      "date": "2022-09-05",
+      "daily_transactions": 63800,
+      "transaction_volume": 18200000,
+      "active_merchants": 10080,
+      "user_retention": 0.79,
+      "avg_transaction_value": 285.3,
+      "revenue": 273000
+    },
+    {
+      "date": "2022-09-06",
+      "daily_transactions": 64500,
+      "transaction_volume": 18420000,
+      "active_merchants": 10150,
+      "user_retention": 0.79,
+      "avg_transaction_value": 285.6,
+      "revenue": 276300
+    },
+    {
+      "date": "2022-09-07",
+      "daily_transactions": 62200,
+      "transaction_volume": 17750000,
+      "active_merchants": 10010,
+      "user_retention": 0.78,
+      "avg_transaction_value": 285.4,
+      "revenue": 266250
+    },
+    {
+      "date": "2022-09-08",
+      "daily_transactions": 65300,
+      "transaction_volume": 18680000,
+      "active_merchants": 10230,
+      "user_retention": 0.80,
+      "avg_transaction_value": 286.1,
+      "revenue": 280200
+    },
+    {
+      "date": "2022-09-09",
+      "daily_transactions": 63600,
+      "transaction_volume": 18180000,
+      "active_merchants": 10120,
+      "user_retention": 0.79,
+      "avg_transaction_value": 285.8,
+      "revenue": 272700
+    },
+    {
+      "date": "2022-09-10",
+      "daily_transactions": 44800,
+      "transaction_volume": 12850000,
+      "active_merchants": 9340,
+      "user_retention": 0.80,
+      "avg_transaction_value": 326.7,
+      "revenue": 192750
+    },
+    {
+      "date": "2022-09-11",
+      "daily_transactions": 41900,
+      "transaction_volume": 12010000,
+      "active_merchants": 9260,
+      "user_retention": 0.79,
+      "avg_transaction_value": 339.2,
+      "revenue": 180150
+    },
+    {
+      "date": "2022-09-12",
+      "daily_transactions": 65100,
+      "transaction_volume": 18680000,
+      "active_merchants": 10300,
+      "user_retention": 0.80,
+      "avg_transaction_value": 286.9,
+      "revenue": 280200
+    },
+    {
+      "date": "2022-09-13",
+      "daily_transactions": 64200,
+      "transaction_volume": 18410000,
+      "active_merchants": 10220,
+      "user_retention": 0.79,
+      "avg_transaction_value": 286.8,
+      "revenue": 276150
+    },
+    {
+      "date": "2022-09-14",
+      "daily_transactions": 66800,
+      "transaction_volume": 19200000,
+      "active_merchants": 10400,
+      "user_retention": 0.80,
+      "avg_transaction_value": 287.4,
+      "revenue": 288000
+    },
+    {
+      "date": "2022-09-15",
+      "daily_transactions": 65500,
+      "transaction_volume": 18810000,
+      "active_merchants": 10320,
+      "user_retention": 0.80,
+      "avg_transaction_value": 287.2,
+      "revenue": 282150
+    },
+    {
+      "date": "2022-09-16",
+      "daily_transactions": 67200,
+      "transaction_volume": 19350000,
+      "active_merchants": 10450,
+      "user_retention": 0.80,
+      "avg_transaction_value": 287.9,
+      "revenue": 290250
+    },
+    {
+      "date": "2022-09-17",
+      "daily_transactions": 46200,
+      "transaction_volume": 13350000,
+      "active_merchants": 9580,
+      "user_retention": 0.80,
+      "avg_transaction_value": 328.5,
+      "revenue": 200250
+    },
+    {
+      "date": "2022-09-18",
+      "daily_transactions": 43100,
+      "transaction_volume": 12450000,
+      "active_merchants": 9490,
+      "user_retention": 0.79,
+      "avg_transaction_value": 340.0,
+      "revenue": 186750
+    },
+    {
+      "date": "2022-09-19",
+      "daily_transactions": 66400,
+      "transaction_volume": 19150000,
+      "active_merchants": 10520,
+      "user_retention": 0.80,
+      "avg_transaction_value": 288.4,
+      "revenue": 287250
+    },
+    {
+      "date": "2022-09-20",
+      "daily_transactions": 67800,
+      "transaction_volume": 19580000,
+      "active_merchants": 10610,
+      "user_retention": 0.81,
+      "avg_transaction_value": 288.8,
+      "revenue": 293700
+    },
+    {
+      "date": "2022-09-21",
+      "daily_transactions": 65200,
+      "transaction_volume": 18810000,
+      "active_merchants": 10450,
+      "user_retention": 0.80,
+      "avg_transaction_value": 288.5,
+      "revenue": 282150
+    },
+    {
+      "date": "2022-09-22",
+      "daily_transactions": 68500,
+      "transaction_volume": 19800000,
+      "active_merchants": 10680,
+      "user_retention": 0.81,
+      "avg_transaction_value": 289.1,
+      "revenue": 297000
+    },
+    {
+      "date": "2022-09-23",
+      "daily_transactions": 66900,
+      "transaction_volume": 19320000,
+      "active_merchants": 10560,
+      "user_retention": 0.80,
+      "avg_transaction_value": 288.8,
+      "revenue": 289800
+    },
+    {
+      "date": "2022-09-24",
+      "daily_transactions": 47500,
+      "transaction_volume": 13780000,
+      "active_merchants": 9780,
+      "user_retention": 0.81,
+      "avg_transaction_value": 330.2,
+      "revenue": 206700
+    },
+    {
+      "date": "2022-09-25",
+      "daily_transactions": 44200,
+      "transaction_volume": 12820000,
+      "active_merchants": 9690,
+      "user_retention": 0.80,
+      "avg_transaction_value": 338.6,
+      "revenue": 192300
+    },
+    {
+      "date": "2022-09-26",
+      "daily_transactions": 67500,
+      "transaction_volume": 19620000,
+      "active_merchants": 10750,
+      "user_retention": 0.81,
+      "avg_transaction_value": 290.7,
+      "revenue": 294300
+    },
+    {
+      "date": "2022-09-27",
+      "daily_transactions": 69200,
+      "transaction_volume": 21480000,
+      "active_merchants": 11350,
+      "user_retention": 0.81,
+      "avg_transaction_value": 310.4,
+      "revenue": 322200
+    },
+    {
+      "date": "2022-09-28",
+      "daily_transactions": 68100,
+      "transaction_volume": 22000000,
+      "active_merchants": 11500,
+      "user_retention": 0.81,
+      "avg_transaction_value": 323.1,
+      "revenue": 330000
+    }
+  ]
+}

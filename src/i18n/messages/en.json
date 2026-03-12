@@ -1,0 +1,1127 @@
+{
+  "meta": {
+    "title": "Longyu Xu | Risk Analytics & Fintech Specialist",
+    "description": "Risk analytics and fintech professional. EDHEC International Finance & Management student with experience in risk strategy, financial audit, and data-driven decision-making.",
+    "ogTitle": "Longyu Xu - Risk & Fintech Portfolio",
+    "ogDescription": "Discover my experience in risk strategy, financial audit automation, and data analytics."
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "dashboard": "Dashboard",
+    "research": "Research",
+    "resume": "Resume",
+    "contact": "Contact",
+    "riskTool": "Risk Tool"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Longyu Xu",
+    "tagline": "Risk Analytics • Fintech • Data-Driven Finance",
+    "nowBadge": "Available from 03/2026 — Seeking Risk / Fintech / Quant Intern",
+    "resumeBtn": "View Resume",
+    "projectsBtn": "View Projects",
+    "contactBtn": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "content": "I'm an International Finance & Management student at EDHEC Business School (GPA 15.66/20, Top 15%), with hands-on experience in risk strategy, financial audit automation, and data analytics. I hold a BSc in Finance (Minor: Information Management) from Shanghai Jiao Tong University and have worked across risk control, compliance, and fintech in Paris and Shanghai. I'm passionate about applying quantitative methods and data engineering to real-world risk and business challenges."
+  },
+  "experience": {
+    "title": "Experience",
+    "natixis": {
+      "company": "Natixis (Natixis Corporate & Investment Banking)",
+      "role": "Risk Control Analyst Intern",
+      "period": "01/2025 – 07/2025",
+      "location": "Paris, France",
+      "bullets": [
+        "Built risk and KPI visualization dashboards using Power BI and DAX, enabling real-time monitoring of key risk indicators and control performance",
+        "Developed Python and VBA scripts for automated data cleaning and analysis of monitoring datasets, writing 3,000+ lines of production code",
+        "Streamlined reporting workflows by automating recurring data extraction, validation, and formatting tasks, significantly reducing manual effort"
+      ]
+    },
+    "geVernova": {
+      "company": "GE Vernova",
+      "role": "Finance Digital Audit Intern",
+      "period": "09/2024 – 01/2025",
+      "location": "Paris, France",
+      "bullets": [
+        "Automated generation of forecast and operational reports using Excel + VBA, incorporating version control and data reconciliation logic",
+        "Identified and documented risk points across data integrity, authorization workflows, and audit trail processes",
+        "Modularized variance analysis into reusable templates, improving efficiency and consistency across reporting cycles"
+      ]
+    },
+    "allinpay": {
+      "company": "Allinpay Payment Fintech",
+      "role": "Risk Strategist",
+      "period": "07/2022 – 02/2023",
+      "location": "Shanghai, China",
+      "bullets": [
+        "Managed risk strategy and optimization for payment business lines, identifying risk control gaps and proposing mitigation frameworks",
+        "Optimized risk identification model using Python + LightGBM, improving AUC from 0.82 to 0.91 and overall accuracy by 22%",
+        "Conducted fraud requirement analysis and designed anti-fraud rule systems for the Huinong (rural finance) business line",
+        "Researched regulatory policies and assisted in drafting the preliminary version of the QR Code Payment Interim Regulations"
+      ]
+    },
+    "caizhen": {
+      "company": "Caizhen Securities Co., Ltd.",
+      "role": "Risk Control Intern",
+      "period": "01/2022 – 03/2022",
+      "location": "Shanghai, China",
+      "bullets": [
+        "Conducted risk identification and compliance reviews of financial statements, flagging anomalies and control deficiencies",
+        "Compiled and organized risk identification and assessment reports to support the risk management team"
+      ]
+    }
+  },
+  "education": {
+    "title": "Education",
+    "edhec": {
+      "school": "EDHEC Business School",
+      "degree": "Master in International Finance & Management (Dual Degree)",
+      "period": "09/2023 – 12/2026 (expected)",
+      "details": "GPA 15.66/20 (Top 15%) | Outstanding Chinese Alumni Scholarship (50% tuition)",
+      "courses": "Python Portfolio Analysis, Fintech, Financial Modeling, VBA, M&A Analysis"
+    },
+    "sjtu": {
+      "school": "Shanghai Jiao Tong University",
+      "degree": "BSc Finance (Minor: Information Management)",
+      "period": "09/2018 – 06/2022",
+      "details": "",
+      "courses": "Business Statistics, Database & Big Data, Algorithm Analysis, Econometrics, Corporate Finance"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "productOperations": {
+        "title": "Risk & Finance",
+        "items": [
+          "Risk Strategy & Control Design",
+          "Fraud Detection & Anti-fraud Rules",
+          "Financial Statement Analysis",
+          "Regulatory Compliance Research",
+          "Internal Audit & Controls",
+          "Variance Analysis & Reporting"
+        ]
+      },
+      "dataTools": {
+        "title": "Data & Tech Tools",
+        "items": [
+          "Python (LightGBM, pandas, matplotlib)",
+          "SQL",
+          "Power BI / DAX",
+          "VBA / Excel",
+          "Web Scraping & Data Pipelines",
+          "Claude Code / Codex"
+        ]
+      },
+      "languages": {
+        "title": "Languages",
+        "items": [
+          "English (Fluent)",
+          "French (Intermediate)",
+          "Chinese (Fluent)"
+        ]
+      }
+    }
+  },
+  "featuredProjects": {
+    "title": "Featured Projects",
+    "viewAll": "View All Projects"
+  },
+  "leadership": {
+    "title": "Activities & Leadership",
+    "role": "EDHEC Campus Ambassador & Chairman, Chinese Society",
+    "period": "09/2023 – 06/2026",
+    "description": "Raised €2,000 in sponsorship and organized the Spring Festival Gala with 200+ attendees. Led outreach campaigns for prospective Chinese students and served as official EDHEC Campus Ambassador.",
+    "extras": [
+      {
+        "role": "AI Agent Werewolf Global Championship (Alibaba / WhoisSpy)",
+        "period": "02/2026 – 03/2026",
+        "description": "Competing in AI agent design competition — currently ranked Top 8 globally."
+      },
+      {
+        "role": "Chairman, Planning Dept., Piano Society — Shanghai Jiao Tong University",
+        "period": "09/2019 – 08/2020",
+        "description": "Organized the 'Sakura Season' student concert series."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "filterLabel": "Filter by:",
+    "allTag": "All",
+    "readTime": "min read",
+    "viewProject": "View Project",
+    "backToProjects": "← Back to Projects",
+    "tags": {
+      "internalAudit": "Internal Audit",
+      "compliance": "Compliance",
+      "controls": "Controls",
+      "aiCoding": "AI Coding",
+      "dataAnalytics": "Data Analytics",
+      "powerBi": "Power BI",
+      "python": "Python",
+      "sql": "SQL",
+      "leadership": "Leadership",
+      "productOperations": "Product Operations",
+      "userGrowth": "User Growth",
+      "abtesting": "A/B Testing",
+      "visualization": "Data Visualization",
+      "riskAnalytics": "Risk Analytics",
+      "automation": "Automation",
+      "machineLearning": "Machine Learning",
+      "aiAgent": "AI Agent",
+      "rag": "RAG",
+      "llm": "LLM",
+      "workflow": "Workflow"
+    },
+    "items": {
+      "paymentRiskAssistant": {
+        "title": "Payment Risk Policy & Monitoring Assistant",
+        "slug": "payment-risk-assistant",
+        "summary": "An interactive compliance workflow tool integrating regulatory requirements, risk-control mapping, scenario scoring, and real-time alert monitoring — built as a B2B internal risk ops prototype.",
+        "readTime": 8,
+        "tags": ["riskAnalytics", "dataAnalytics", "visualization", "python", "sql"],
+        "content": {
+          "overview": "This tool demonstrates a payment risk management workflow for a fintech compliance team. It maps regulatory requirements (PCI-DSS, AML, PSD2, GDPR) to risk categories and controls, scores risk scenarios using a weighted algorithm, and surfaces live monitoring alerts with suggested remediation actions.",
+          "features": [
+            "Regulation Library — 11 active regulations with linked risk categories and control references",
+            "Risk-Control Mapping — visual chain from business area → risk → regulation → control → KPI metric",
+            "Scenario Risk Scoring — weighted algorithm: base severity + alert penalty − control coverage, classified as Low/Medium/High/Critical",
+            "Alert Management — filterable incident feed with severity, status, linked scenario, and suggested action",
+            "Summary Memo Generator — one-click plain-text risk assessment memo for compliance reporting"
+          ],
+          "methodology": "Risk scoring uses a weighted model: each risk category contributes a severity-based weight (critical=4, high=3, medium=2, low=1), with a +5 alert penalty per open alert and -2 coverage credit per active control. Final scores map to four classification bands. The static data layer (TypeScript) simulates a live API, keeping the demo fully portable without a database."
+        }
+      },
+      "workpaperQc": {
+        "title": "Internal Audit Workpaper QC + Sampling Assistant",
+        "slug": "workpaper-qc",
+        "summary": "An interactive demo tool that evaluates workpaper quality, suggests sampling sizes, and provides actionable feedback using Internal Audit best practices.",
+        "readTime": 8,
+        "tags": [
+          "internalAudit",
+          "controls",
+          "python"
+        ],
+        "content": {
+          "overview": "This tool assists internal auditors in evaluating the quality of their workpapers against industry best practices. It computes a quality score based on completeness, traceability, sampling rationale, evidence sufficiency, conclusion quality, and professional tone.",
+          "features": [
+            "Workpaper Quality Score (0-100) with detailed rubric breakdown",
+            "Findings list with severity ratings (High/Medium/Low)",
+            "Suggested improvements for test procedures and conclusions",
+            "Sampling assistant with confidence level-based sample size suggestions",
+            "Export to Markdown format for documentation"
+          ],
+          "methodology": "The scoring algorithm evaluates six key dimensions: Completeness (mandatory fields and adequate detail), Traceability (risk-control-procedure alignment), Sampling Rationale (population, method, and size justification), Evidence Sufficiency (documentation and storage), Conclusion Quality (criteria, condition, cause, impact, recommendation), and Professional Tone (terminology consistency)."
+        }
+      },
+      "claudeCodeToolkit": {
+        "title": "Claude Code–Driven Audit Automation Toolkit",
+        "slug": "claude-code-toolkit",
+        "summary": "Leveraging AI coding assistants to automate repetitive audit tasks, including data extraction, control testing scripts, and workpaper generation.",
+        "readTime": 6,
+        "tags": [
+          "internalAudit",
+          "aiCoding",
+          "python",
+          "dataAnalytics"
+        ],
+        "content": {
+          "overview": "This project explores how AI coding assistants like Claude Code can accelerate internal audit workflows. The toolkit includes automated data extraction scripts, control testing templates, and workpaper generation utilities.",
+          "features": [
+            "Automated data extraction from multiple source systems",
+            "Parameterized control testing scripts",
+            "Workpaper template generation with pre-filled sections",
+            "Evidence collection and organization utilities"
+          ],
+          "methodology": "The toolkit uses a modular architecture where each audit task is broken into discrete, testable functions. AI assistance is leveraged for code generation while maintaining human oversight for quality assurance and business logic validation."
+        }
+      },
+      "ccduAiCoding": {
+        "title": "CCDU — AI Coding Series Organizer & Instructor",
+        "slug": "ccdu-ai-coding",
+        "summary": "Organized and instructed an AI coding workshop series, teaching students how to leverage AI tools for programming and data analysis tasks.",
+        "readTime": 5,
+        "tags": [
+          "aiCoding",
+          "leadership",
+          "python"
+        ],
+        "content": {
+          "overview": "As an organizer and instructor for the CCDU AI Coding Series, I developed curriculum and led workshops teaching participants how to effectively use AI coding assistants for real-world programming challenges.",
+          "features": [
+            "Curriculum development for AI-assisted coding workshops",
+            "Hands-on exercises with real-world use cases",
+            "Best practices for prompt engineering",
+            "Integration with data analysis workflows"
+          ],
+          "methodology": "The series followed a progressive learning approach, starting with basic AI interaction patterns and advancing to complex multi-step coding tasks. Each session included live demonstrations, hands-on exercises, and code review sessions."
+        }
+      },
+      "universityDashboard": {
+        "title": "University Data Intelligence Dashboard",
+        "slug": "university-dashboard",
+        "summary": "A comprehensive BI dashboard combining web crawling, data processing, and visualization to provide insights on university metrics and trends.",
+        "readTime": 7,
+        "tags": [
+          "dataAnalytics",
+          "powerBi",
+          "python",
+          "sql"
+        ],
+        "content": {
+          "overview": "This project involves building an end-to-end data pipeline that crawls publicly available university data, processes it through ETL workflows, and presents it in an interactive Power BI dashboard.",
+          "features": [
+            "Automated web crawling for data collection",
+            "ETL pipeline for data cleaning and transformation",
+            "Interactive Power BI dashboards with drill-down capabilities",
+            "Trend analysis and comparative metrics"
+          ],
+          "methodology": "The solution uses Python for web scraping and data processing, SQL for data storage and querying, and Power BI for visualization. The architecture emphasizes data quality checks and automated refresh schedules."
+        }
+      },
+      "userGrowthAnalytics": {
+        "title": "User Growth Analytics Platform",
+        "slug": "user-growth-analytics",
+        "summary": "An interactive product operations analytics platform featuring AARRR funnel analysis, cohort retention heatmaps, channel attribution, A/B test calculators, and competitive feature matrices.",
+        "readTime": 10,
+        "tags": [
+          "productOperations",
+          "userGrowth",
+          "dataAnalytics",
+          "abtesting",
+          "visualization"
+        ],
+        "content": {
+          "overview": "This platform demonstrates core product operations analytics capabilities. It provides interactive tools for user acquisition analysis, activation optimization, retention tracking, revenue attribution, and referral measurement — the complete AARRR framework used by top internet companies.",
+          "features": [
+            "AARRR Funnel Visualization with conversion rate tracking across Acquisition → Activation → Retention → Revenue → Referral",
+            "Cohort Retention Analysis with heatmap visualization showing D1, D7, D14, D30 retention by signup cohort",
+            "Channel Attribution Dashboard comparing CAC, LTV, ROI across multiple marketing channels",
+            "A/B Test Significance Calculator with two-proportion z-test, p-value, and confidence intervals",
+            "Competitive Feature Matrix for side-by-side product comparison across key dimensions",
+            "Export analytics reports to Markdown for stakeholder sharing"
+          ],
+          "methodology": "The analytics engine uses industry-standard product metrics formulas: DAU/MAU stickiness ratio, K-factor for virality coefficient, LTV:CAC ratio for unit economics health. Statistical significance for A/B experiments is calculated using two-proportion z-tests. Cohort analysis follows retention curve best practices with flexible time windows."
+        }
+      },
+      "fintechRagAssistant": {
+        "title": "Financial Document RAG Q&A System",
+        "slug": "fintech-rag-assistant",
+        "summary": "A RAG (Retrieval-Augmented Generation) Q&A system built for Chinese financial regulatory documents (PBOC / SAFE regulations), enabling natural-language compliance queries with precise answers and source citations.",
+        "readTime": 9,
+        "content": {
+          "overview": "Designed for fintech compliance teams, this system transforms regulatory documents from the People's Bank of China, SAFE, and the NPC into a searchable knowledge base. Users query in natural language (e.g. 'What are the reserve fund requirements for non-bank payment institutions?'), and the system retrieves relevant regulatory passages and synthesizes a grounded answer with original-text citations.",
+          "features": [
+            "Hybrid retrieval: BM25 sparse search + dense vector retrieval (dual-path recall) for superior relevance on complex regulatory queries",
+            "Semantic-aware chunking: splits documents at clause boundaries to preserve legal meaning and avoid cross-clause truncation",
+            "Grounded LLM synthesis: retrieved passages fed to an LLM to generate coherent answers with per-claim source attribution",
+            "Citation tracing: every answer includes regulation name, article number, and an original-text excerpt for fast verification",
+            "Multi-document retrieval: simultaneous search across multiple regulations with automatic cross-reference handling"
+          ],
+          "methodology": "Built with LangChain + ChromaDB. Documents are chunked at regulatory clause boundaries (chunk_size=512, overlap=64). Retrieval blends BM25 and text-embedding-3-small vector scores (weights 0.3:0.7). Generation uses GPT-4o with structured JSON output (answer, sources, confidence), and the frontend renders inline citation cards from this schema."
+        }
+      },
+      "multiAgentResearch": {
+        "title": "Multi-Agent Financial Research Assistant",
+        "slug": "multi-agent-research",
+        "summary": "An LLM-orchestrated multi-agent system that automates financial research pipelines: Data Collection Agent → Quantitative Analysis Agent → Report Generation Agent, with tool use and context memory — compressing research cycles from days to minutes.",
+        "readTime": 10,
+        "content": {
+          "overview": "This project builds a Supervisor-Worker multi-agent system for automated financial research. Users submit a research topic (e.g. 'Analyze Q3 earnings risk for [company]'), and the Supervisor Agent decomposes it into subtasks dispatched to specialist Workers: a Data Collection Agent fetches financials and news, a Quantitative Analysis Agent runs metric calculations and anomaly detection, and a Report Generation Agent assembles a structured research report.",
+          "features": [
+            "Supervisor-Worker architecture: Supervisor handles task decomposition, sub-agent scheduling, and result aggregation with dynamic routing",
+            "Tool calling (Function Calling): each agent has a dedicated toolset including financial data APIs, calculators, and chart generators",
+            "Context memory management: short-term state storage with history summarization to prevent token overflow",
+            "Parallel agent execution: data collection and initial analysis run concurrently, reducing total latency by ~60%",
+            "Human-in-the-loop: critical nodes (risk rating, conclusion sign-off) pause for human approval, ensuring output trustworthiness"
+          ],
+          "methodology": "Built on LangGraph StateGraph. Each node is an agent; edges are conditional routing rules. The Supervisor uses ReAct (reason → act → observe) planning loops. Worker agents return structured JSON via Pydantic models. The Supervisor aggregates outputs and passes them to the Report Agent, which produces a Markdown report with sections: Executive Summary, Financial Analysis, Risk Assessment, and Investment Thesis."
+        }
+      },
+      "operationsAnalyticsDashboard": {
+        "title": "Operations Analytics Dashboard",
+        "slug": "operations-analytics-dashboard",
+        "summary": "An enterprise-grade operations analytics platform built on Power BI, integrating A/B test statistical significance evaluation, conversion funnel attribution, and channel ROI analysis with 90-day real-time data refresh and self-serve drill-down.",
+        "readTime": 6,
+        "content": {
+          "overview": "Designed for product and operations teams, this dashboard consolidates scattered data sources (MySQL, event tracking, ad platforms) into a unified Power BI environment covering DAU/MAU trends, A/B experiment significance, user funnel analysis, and channel acquisition ROI — with parameterized slicers for self-serve exploration.",
+          "features": [
+            "A/B Experiment Dashboard — embedded confidence intervals and Z-test module, auto-flagging significance (p<0.05/p<0.01), eliminating gut-feel decisions",
+            "Conversion Funnel Attribution — 7-step funnel visualization, breakdowns by channel/device/time period, pinpointing exact drop-off nodes",
+            "Channel ROI Matrix — aligns ad spend with LTV and CAC, visualizing marginal return curves per channel in real time",
+            "Automated Report Push — Power Automate delivers daily 9am summary reports to Teams channels, eliminating manual data pulls",
+            "Data Lineage Tracking — key metrics annotated with source references so non-technical stakeholders can verify calculation logic"
+          ],
+          "methodology": "Data layer uses Python ETL (pandas + sqlalchemy) to clean and flatten multi-source data into Azure SQL wide tables; Power BI connects via DirectQuery for real-time freshness. A/B significance is computed in DAX with a two-proportion Z-test formula; funnel analysis uses Power BI waterfall charts and custom SVG visual plugins. Row-Level Security (RLS) controls per-team data access across the entire dashboard."
+        }
+      },
+      "aiWorkflowAutomation": {
+        "title": "LangGraph Compliance Review Workflow",
+        "slug": "ai-workflow-automation",
+        "summary": "A state-machine compliance document review pipeline built with LangGraph: document upload → risk element extraction → policy matching → human approval → report generation, compressing traditional 3–5 day reviews to minutes.",
+        "readTime": 8,
+        "content": {
+          "overview": "Built for financial institution compliance teams, this project converts manual compliance review into an AI-driven automated workflow. Uploaded documents (contracts, agreements, regulatory filings) are automatically parsed for risk elements (counterparty credentials, amount thresholds, transaction structures), matched against a regulatory policy library, and turned into risk assessment reports — with human-in-the-loop approval at critical decision points.",
+          "features": [
+            "LangGraph state graph: explicit workflow nodes (parse → extract → match → approve → generate) with conditional edges (high risk → human review, low risk → auto-pass)",
+            "Structured extraction: LLM extracts JSON-formatted risk elements (parties, amounts, durations, clauses) from unstructured documents",
+            "Policy matching engine: extracted elements compared against regulatory rules library, auto-flagging violations and risk levels",
+            "Human-in-the-loop node: LangGraph interrupt mechanism pauses for compliance officer annotation and judgment override",
+            "Audit trail: complete input/output, reasoning, and timestamps logged at every node to satisfy compliance audit requirements"
+          ],
+          "methodology": "Workflow defined using LangGraph's StateGraph API. State fields include document content, extracted elements, matching report, and approval status. Conditional routing triggers human review when risk score > 0.7. Human-in-the-loop is implemented via NodeInterrupt, with the frontend polling a status endpoint. Structured outputs use Pydantic models to enforce LLM output schema consistency across nodes."
+        }
+      },
+      "aiCoworkPlatform": {
+        "title": "AI-Assisted Collaborative Analytics Platform",
+        "slug": "ai-cowork-platform",
+        "summary": "A human-AI collaborative analytics workspace where an LLM co-pilot assists analysts with EDA, chart generation, and insight narration via tool use, streaming responses, and multi-turn context — delivering 3× faster analysis cycles.",
+        "readTime": 7,
+        "content": {
+          "overview": "This platform gives data analysts an AI co-pilot workspace: upload a dataset, and the AI proactively identifies data quality issues, suggests analysis directions, auto-generates Python analysis code and ECharts visualizations, and interprets charts with business-language narratives. The entire session supports multi-turn dialogue, with the AI maintaining context of the analyst's evolving intent.",
+          "features": [
+            "Smart EDA: AI auto-scans the dataset for missing values, outliers, and distribution characteristics, generating a descriptive statistics summary",
+            "Collaborative code generation: analyst describes needs in natural language; AI produces executable Python (pandas/seaborn) with one-click run",
+            "Dynamic chart generation: LLM tool calls auto-select chart type and configure ECharts parameters based on data semantics",
+            "Insight narration: after each chart, AI writes a business-language interpretation covering trends, anomalies, and action recommendations",
+            "Streaming output: LLM responses pushed via SSE stream so analysts see the AI reasoning in real time, reducing perceived latency"
+          ],
+          "methodology": "Backend: FastAPI + LangChain. Frontend: Next.js + ECharts. The AI co-pilot has 5 tool types: data summary, statistical computation, chart config generation, Python execution sandbox, and insight writing. Tool call results return structured JSON; the frontend renders different UI components (code block, chart, text card) based on tool type. Conversation history is summarized and appended to the system prompt to maintain long-session coherence."
+        }
+      },
+      "amlSentinel": {
+        "title": "AML Sentinel: China AML Investigation Workbench",
+        "slug": "aml-sentinel",
+        "summary": "A bank-style AML compliance workbench combining real Chinese financial fraud data (DGraph-Fin by Finvolution), PBOC regulatory RAG, and an AI Agent that auto-drafts Suspicious Transaction Reports — designed around the full analyst investigation workflow.",
+        "readTime": 10,
+        "content": {
+          "overview": "AML Sentinel is a portfolio-grade prototype of a bank AML investigation and reporting platform. It models the full compliance workflow: alert triage, case investigation, regulation lookup, and STR drafting — each step grounded in China's regulatory framework. Transaction data is preprocessed from DGraph-Fin (Finvolution, NeurIPS 2022) and IBM AML (NeurIPS 2023). The regulatory knowledge base covers the revised 反洗钱法 2024, FATF China 2019 Mutual Evaluation, and KPMG's compliance analysis. The STR generator deploys a 6-step Anthropic claude-sonnet-4-6 Agent that autonomously investigates a flagged case and produces a draft Suspicious Transaction Report in CAMLMAC format.",
+          "features": [
+            "Alert Queue — PBOC threshold rules applied to transaction data; severity triage (Critical / High / Medium / Low) with rule explanations and risk score breakdowns from DGraph-Fin ML scores",
+            "Case Overview — Structured case lifecycle (6 states), key findings, reporting urgency countdown, analyst notes with handoff to supervisor review",
+            "Investigation Workspace — ECharts force-directed graph with fan-out, fan-in, and cycle pattern highlighting from IBM AML HI-Small typology labels; investigation checklist",
+            "Regulation Copilot — Hybrid BM25 + Anthropic API Q&A over 反洗钱法 2024, FATF China MER 2019, and KPMG AML analysis; every answer cites specific article or section references",
+            "STR Auto-Draft — 6-step AI Agent using claude-sonnet-4-6 tool_use: case extraction, account analysis, regulation retrieval, typology classification, urgency assessment, CAMLMAC-format report generation"
+          ],
+          "methodology": "Data layer: DGraph-Fin node features mapped to alert risk signals; IBM AML HI-Small provides labeled laundering typology patterns for the network graph. Regulatory RAG uses CJK-aware BM25 retrieval to fetch top-5 chunks from ~80 pre-chunked regulatory excerpts, then passes them to Anthropic claude-sonnet-4-6 via streaming API for grounded answer generation. STR generation uses an agentic tool_use loop: Claude iteratively calls 5 deterministic tools, then produces a structured STR draft in CAMLMAC format. The system always maintains human-in-the-loop: AI output is advisory, never auto-submitted."
+        }
+      }
+    }
+  },
+  "resume": {
+    "title": "Resume",
+    "downloadBtn": "Download PDF",
+    "embedAlt": "Resume PDF Preview"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Available from 03/2026, seeking risk analytics, fintech, or quantitative finance intern/full-time roles. Feel free to reach out!",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "phone": "Phone",
+    "formTitle": "Send a Message",
+    "formName": "Your Name",
+    "formEmail": "Your Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSubmit": "Send Message",
+    "location": "Location",
+    "locationValue": "Paris / Shanghai / Remote"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js & Tailwind CSS"
+  },
+  "workpaperTool": {
+    "title": "Workpaper QC + Sampling Assistant",
+    "subtitle": "Evaluate your audit workpaper quality and get actionable recommendations",
+    "exampleBtn": "Load Example",
+    "clearBtn": "Clear Form",
+    "analyzeBtn": "Analyze Workpaper",
+    "saveBtn": "Save",
+    "saveAndAnalyzeBtn": "Save & Analyze",
+    "saving": "Saving...",
+    "saved": "Saved!",
+    "exportBtn": "Export as Markdown",
+    "copyBtn": "Copy to Clipboard",
+    "copied": "Copied!",
+    "testResultPass": "Pass",
+    "testResultFail": "Fail",
+    "testResultException": "Exception",
+    "fields": {
+      "title": "Workpaper Title",
+      "titleHelp": "Give your workpaper a descriptive title",
+      "auditObjective": "Audit Objective",
+      "auditObjectiveHelp": "What are we trying to assure? Be specific about the control or process being tested.",
+      "riskStatement": "Risk Statement",
+      "riskStatementHelp": "What could go wrong if the control fails? Describe the potential impact.",
+      "controlDescription": "Control Description",
+      "controlDescriptionHelp": "Describe the control: owner, frequency, key steps, and how it mitigates the risk.",
+      "controlType": "Control Type",
+      "controlTypeHelp": "Preventive controls prevent errors; Detective controls identify errors after they occur.",
+      "preventive": "Preventive",
+      "detective": "Detective",
+      "controlFrequency": "Control Frequency",
+      "controlFrequencyHelp": "How often is the control performed?",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "adHoc": "Ad hoc",
+      "populationDescription": "Population Description",
+      "populationDescriptionHelp": "What is the population? Include time period, data source, and total count if known.",
+      "samplingMethod": "Sampling Method",
+      "samplingMethodHelp": "How were test items selected?",
+      "attribute": "Attribute",
+      "judgmental": "Judgmental",
+      "random": "Random",
+      "sampleSize": "Sample Size",
+      "sampleSizeHelp": "Number of items tested",
+      "testProcedure": "Test Procedure",
+      "testProcedureHelp": "Step-by-step procedure: data source, selection criteria, what constitutes an exception.",
+      "evidenceCaptured": "Evidence Captured",
+      "evidenceCapturedHelp": "What evidence was captured? Where is it stored? Include links or file references.",
+      "testResult": "Test Result",
+      "testResultHelp": "Overall result of testing",
+      "pass": "Pass",
+      "fail": "Fail",
+      "exception": "Exception",
+      "exceptionDetail": "Exception Detail",
+      "exceptionDetailHelp": "Required if result is Fail/Exception. Describe what went wrong.",
+      "conclusion": "Conclusion",
+      "conclusionHelp": "Include: criteria, condition, cause, impact, and recommendation."
+    },
+    "results": {
+      "title": "Analysis Results",
+      "qualityScore": "Workpaper Quality Score",
+      "rubricBreakdown": "Rubric Breakdown",
+      "findings": "Findings",
+      "suggestions": "Suggested Improvements",
+      "samplingAssistant": "Sampling Assistant",
+      "suggestedSampleSize": "Suggested Sample Size",
+      "populationSize": "Population Size",
+      "confidenceLevel": "Confidence Level",
+      "tolerableDeviation": "Tolerable Deviation Rate",
+      "categories": {
+        "completeness": "Completeness",
+        "traceability": "Traceability",
+        "samplingRationale": "Sampling Rationale",
+        "evidenceSufficiency": "Evidence Sufficiency",
+        "conclusionQuality": "Conclusion Quality",
+        "professionalTone": "Professional Tone"
+      },
+      "severity": {
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low"
+      }
+    }
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "language": {
+    "en": "English",
+    "zh": "中文"
+  },
+  "dashboard": {
+    "title": "Audit Dashboard",
+    "overview": "Overview",
+    "workpapers": "Workpapers",
+    "projects": "Projects",
+    "risks": "Risks",
+    "totalProjects": "Total Projects",
+    "activeProjects": "Active",
+    "totalWorkpapers": "Total Workpapers",
+    "pendingReview": "Pending Review",
+    "totalRisks": "Total Risks",
+    "highRisks": "High Risks",
+    "averageQcScore": "Avg QC Score",
+    "qcTrend": "QC Score Trend",
+    "categoryAnalysis": "Category Analysis",
+    "scoreDistribution": "Score Distribution",
+    "riskMatrix": "Risk Matrix",
+    "noData": "No data available. Seed demo data to get started.",
+    "seedData": "Seed Demo Data",
+    "seeding": "Seeding...",
+    "workpapersTitle": "Workpapers Analysis",
+    "recentWorkpapers": "Recent Workpapers",
+    "viewAll": "View All",
+    "noWorkpapers": "No workpapers found",
+    "status": "Status",
+    "testResult": "Result",
+    "score": "Score",
+    "date": "Date",
+    "projectsTitle": "Projects Kanban",
+    "noProjects": "No projects found",
+    "planning": "Planning",
+    "fieldwork": "Fieldwork",
+    "review": "Review",
+    "reporting": "Reporting",
+    "completed": "Completed",
+    "milestones": "Milestones",
+    "priority": "Priority",
+    "owner": "Owner",
+    "dueDate": "Due Date",
+    "risksTitle": "Risk Analysis",
+    "noRisks": "No risks found",
+    "mitigated": "Mitigated",
+    "pending": "Pending Mitigation",
+    "riskName": "Risk Name",
+    "category": "Category",
+    "inherentRisk": "Inherent Risk",
+    "residualRisk": "Residual Risk",
+    "controlEffectiveness": "Control Effectiveness",
+    "mitigationStatus": "Mitigation Status"
+  },
+  "workpapers": {
+    "title": "Workpapers",
+    "newWorkpaper": "New Workpaper",
+    "noWorkpapers": "No workpapers found. Create your first workpaper to get started.",
+    "filterByStatus": "Filter by Status",
+    "filterByResult": "Filter by Result",
+    "all": "All",
+    "backToList": "Back to Workpapers",
+    "notFound": "Workpaper not found",
+    "details": "Workpaper Details",
+    "qcHistory": "QC Analysis History",
+    "runAnalysis": "Run QC Analysis",
+    "analyzing": "Analyzing...",
+    "version": "Version",
+    "analyzedBy": "Analyzed by",
+    "noAnalyses": "No QC analyses yet. Run an analysis to evaluate this workpaper.",
+    "columns": {
+      "title": "Title",
+      "project": "Project",
+      "status": "Status",
+      "testResult": "Test Result",
+      "qcScore": "QC Score",
+      "lastUpdated": "Last Updated"
+    }
+  },
+  "research": {
+    "title": "Research & Analytics",
+    "subtitle": "Data Analytics & Industry Research",
+    "description": "Business analysis reports, machine learning projects, and data dashboards covering fintech, risk, and market intelligence.",
+    "featuredWork": "Featured Work",
+    "methods": "Methods",
+    "tooling": "Tooling",
+    "downloadPdf": "Download PDF",
+    "contact": "Contact",
+    "backToResearch": "Back to Research",
+    "cards": {
+      "dashboard": {
+        "title": "KPI Dashboard",
+        "description": "Interactive metrics visualization with DAU, retention, transactions, and fees tracking."
+      },
+      "businessAnalysis": {
+        "title": "Business Analysis Report",
+        "description": "Comprehensive market intelligence on China payment industry — competitive landscape, channel attribution, user research, and strategic recommendations."
+      },
+      "mlProject": {
+        "title": "ML Churn Prediction",
+        "description": "XGBoost-based user churn prediction model achieving 89.3% AUC, reducing monthly churn by 35% through targeted retention strategies."
+      }
+    },
+    "methodsList": {
+      "marketMap": "Market Mapping",
+      "kpiTree": "KPI Tree Design",
+      "riskRegister": "Risk Register",
+      "narrativeHooks": "Narrative Hooks"
+    },
+    "toolingList": {
+      "python": "Python",
+      "sql": "SQL",
+      "powerbi": "Power BI / DAX",
+      "vba": "VBA / Excel",
+      "llm": "LLM-assisted Analysis",
+      "lightgbm": "LightGBM / XGBoost"
+    },
+    "dashboard": {
+      "title": "Fintech KPI Dashboard",
+      "subtitle": "Interactive metrics visualization (simulated data for demo)",
+      "kpiCards": "Key Metrics (Latest)",
+      "trends": "Trend Analysis",
+      "insightGenerator": "Insight Generator",
+      "insightPlaceholder": "Enter your observation (e.g., 'DAU increased 20% this week')",
+      "generateInsight": "Generate Insight",
+      "metrics": {
+        "dau": "Daily Active Users",
+        "newUsers": "New Users",
+        "retentionD1": "D1 Retention",
+        "retentionD7": "D7 Retention",
+        "txCount": "Transactions",
+        "fees": "Fees (USD)"
+      }
+    },
+    "businessAnalysis": {
+      "title": "China's Payment Industry: Competitive & Strategic Analysis",
+      "sections": {
+        "tldr": "TL;DR",
+        "marketOverview": "Market Overview & Regulatory Environment",
+        "competitiveLandscape": "Competitive Landscape",
+        "channelAttribution": "Channel Attribution Analysis",
+        "userResearch": "User Research (N=2,000 Survey + 50 Interviews)",
+        "kpiFramework": "KPI Monitoring Framework",
+        "recommendations": "Strategic Recommendations"
+      }
+    },
+    "mlProject": {
+      "title": "Payment Platform User Churn Prediction (XGBoost)",
+      "sections": {
+        "overview": "Project Overview",
+        "dataset": "Dataset & Preprocessing",
+        "featureEngineering": "Feature Engineering",
+        "modelComparison": "Model Comparison",
+        "results": "Results & Evaluation",
+        "businessImpact": "Business Impact",
+        "conclusion": "Conclusion"
+      }
+    }
+  },
+  "userGrowthTool": {
+    "title": "User Growth Analytics Platform",
+    "subtitle": "Interactive product operations analytics — AARRR funnel, cohort retention, channel attribution, A/B testing",
+    "exampleBtn": "Load Example",
+    "clearBtn": "Clear",
+    "exportBtn": "Export as Markdown",
+    "copyBtn": "Copy to Clipboard",
+    "copied": "Copied!",
+    "tabs": {
+      "aarrr": "AARRR Funnel",
+      "cohort": "Cohort Retention",
+      "channel": "Channel Attribution",
+      "abtest": "A/B Test Calculator",
+      "competitive": "Competitive Matrix"
+    },
+    "aarrr": {
+      "title": "AARRR Funnel Analysis",
+      "totalVisitors": "Total Visitors",
+      "signups": "Signups (Acquisition)",
+      "activated": "Activated Users",
+      "retained": "Retained (D7)",
+      "paying": "Paying Users",
+      "referrals": "Referrals",
+      "conversionRate": "Conversion Rate",
+      "cac": "CAC (Cost per Acquisition)",
+      "adSpend": "Total Ad Spend",
+      "analyzeBtn": "Analyze Funnel",
+      "ltvCac": "LTV/CAC Ratio",
+      "kFactor": "K-Factor (Virality)",
+      "overallConversion": "Overall Conversion",
+      "stageDetail": "Stage Detail",
+      "dropoff": "Drop-off"
+    },
+    "cohort": {
+      "title": "Cohort Retention Analysis",
+      "cohortDate": "Cohort",
+      "cohortSize": "Users",
+      "d0": "D0",
+      "d1": "D1",
+      "d3": "D3",
+      "d7": "D7",
+      "d14": "D14",
+      "d30": "D30",
+      "avgRetention": "Average Retention",
+      "bestCohort": "Best Cohort",
+      "worstCohort": "Worst Cohort",
+      "retentionCurve": "Retention Curve"
+    },
+    "channel": {
+      "title": "Channel Attribution",
+      "channelName": "Channel",
+      "users": "Users Acquired",
+      "spend": "Spend ($)",
+      "cac": "CAC ($)",
+      "ltv": "LTV ($)",
+      "roi": "ROI (%)",
+      "convRate": "Conv. Rate (%)",
+      "addChannel": "Add Channel",
+      "removeChannel": "Remove",
+      "analyzeBtn": "Analyze Channels",
+      "blendedCAC": "Blended CAC",
+      "blendedROI": "Blended ROI",
+      "topChannel": "Top Channel",
+      "totalSpend": "Total Spend",
+      "roiComparison": "ROI Comparison",
+      "spendDistribution": "Spend Distribution"
+    },
+    "abtest": {
+      "title": "A/B Test Significance Calculator",
+      "control": "Control (A)",
+      "variant": "Variant (B)",
+      "visitors": "Visitors",
+      "conversions": "Conversions",
+      "confidenceLevel": "Confidence Level",
+      "calculateBtn": "Calculate Significance",
+      "result": {
+        "conversionRate": "Conversion Rate",
+        "improvement": "Relative Improvement",
+        "pValue": "P-Value",
+        "significant": "Statistically Significant",
+        "notSignificant": "Not Significant",
+        "recommendation": "Recommendation",
+        "deployVariant": "Deploy Variant B — statistically significant improvement detected",
+        "keepControl": "Keep Control A — no significant difference found",
+        "needMoreData": "Collect more data — results are inconclusive",
+        "confidenceInterval": "95% Confidence Interval"
+      }
+    },
+    "competitive": {
+      "title": "Competitive Feature Matrix",
+      "product": "Product",
+      "addProduct": "Add Product",
+      "removeProduct": "Remove",
+      "dimensions": {
+        "userExperience": "User Experience",
+        "featureRichness": "Feature Richness",
+        "performance": "Performance",
+        "pricing": "Pricing",
+        "ecosystem": "Ecosystem",
+        "innovation": "Innovation",
+        "growth": "User Growth",
+        "retention": "Retention",
+        "monetization": "Monetization",
+        "product": "Product",
+        "brand": "Brand"
+      },
+      "scoreHelp": "Rate 1-10 for each dimension",
+      "avgScore": "Avg Score"
+    },
+    "noData": "No data available. Load example data to get started.",
+    "competitor": {
+      "title": "Competitor Matrix",
+      "product": "Product",
+      "dimension": "Dimension",
+      "score": "Score"
+    },
+    "overview": {
+      "noData": "Load example data or analyze a dataset to see insights here.",
+      "totalUsers": "Total Signups",
+      "signupRate": "signup rate",
+      "activationRate": "Activation Rate",
+      "d7Retention": "D7 Retention",
+      "cac": "CAC",
+      "ltvCac": "LTV/CAC",
+      "payingConversion": "Paying Conversion",
+      "topChannel": "Top Channel",
+      "blendedROI": "Blended ROI",
+      "funnelOverview": "Funnel Overview",
+      "retentionTrend": "Retention Trend",
+      "channelPerformance": "Channel Performance",
+      "keyInsights": "Key Insights"
+    }
+  },
+  "amlSentinel": {
+    "views": {
+      "alerts": "Alert Queue",
+      "case": "Case Overview",
+      "network": "Investigation",
+      "rag": "Regulation Q&A",
+      "str": "STR Draft"
+    },
+    "summary": {
+      "total": "Total Alerts",
+      "critical": "Critical",
+      "highRisk": "High Risk",
+      "pbocFilings": "PBOC Filings"
+    },
+    "summary": {
+      "total": "Total Alerts",
+      "critical": "Critical",
+      "highRisk": "High Risk",
+      "pbocFilings": "PBOC Filing Triggers"
+    },
+    "alerts": {
+      "title": "Alert Queue",
+      "subtitle": "PBOC Threshold Rules + DGraph-Fin Precomputed Risk Scores",
+      "filterAll": "All",
+      "filterCritical": "Critical",
+      "filterHigh": "High",
+      "filterMedium": "Medium",
+      "filterLow": "Low",
+      "selectToView": "Click an alert to open the case",
+      "columns": {
+        "id": "Alert ID",
+        "date": "Date",
+        "amount": "Amount",
+        "type": "Type",
+        "severity": "Severity",
+        "rules": "Triggered Rules",
+        "score": "Risk Score"
+      },
+      "rules": {
+        "PBOC_LARGE_CASH": "Large Cash (>=50k)",
+        "PBOC_LARGE_TRANSFER": "Large Transfer (>=2M)",
+        "HIGH_RISK_COUNTRY": "High-Risk Jurisdiction",
+        "SMURFING": "Structuring",
+        "RAPID_MOVEMENT": "Rapid Movement",
+        "FREQUENT_CASH": "Frequent Cash"
+      }
+    },
+    "alerts": {
+      "title": "Alert Queue",
+      "subtitle": "PBOC threshold rules with mock DGraph-Fin-style risk scoring",
+      "filterAll": "All",
+      "filterCritical": "Critical",
+      "filterHigh": "High",
+      "filterMedium": "Medium",
+      "filterLow": "Low",
+      "selectToView": "Click an alert to open its linked case",
+      "noRules": "None",
+      "transactionTypes": {
+        "transfer": "Transfer",
+        "cash": "Cash",
+        "remittance": "Remittance",
+        "pos": "POS"
+      },
+      "columns": {
+        "id": "Alert ID",
+        "date": "Date",
+        "amount": "Amount",
+        "type": "Type",
+        "severity": "Severity",
+        "rules": "Triggered Rules",
+        "score": "Risk Score"
+      },
+      "rules": {
+        "PBOC_LARGE_CASH": "Large Cash (>= CNY 50k)",
+        "PBOC_LARGE_TRANSFER": "Large Transfer (>= CNY 2m)",
+        "HIGH_RISK_COUNTRY": "High-Risk Jurisdiction",
+        "SMURFING": "Structuring",
+        "RAPID_MOVEMENT": "Rapid Movement",
+        "FREQUENT_CASH": "Frequent Cash"
+      }
+    },
+    "case": {
+      "title": "Case Overview",
+      "backToAlerts": "Back to Alert Queue",
+      "noCase": "Select an alert to view its case",
+      "status": {
+        "new_alert": "New Alert",
+        "under_review": "Under Review",
+        "need_more_evidence": "Need More Evidence",
+        "ready_for_supervisor_review": "Pending Supervisor",
+        "closed_false_positive": "Closed — False Positive",
+        "ready_for_reporting": "Ready for Reporting"
+      },
+      "urgency": {
+        "normal": "Normal",
+        "priority": "Priority",
+        "immediate": "Immediate"
+      },
+      "keyFindings": "Key Findings",
+      "suggestedTypologies": "Suggested Typologies",
+      "reportingDeadline": "Reporting Deadline",
+      "analystNotes": "Analyst Notes",
+      "toInvestigation": "Open Investigation",
+      "toStr": "Draft STR",
+      "linkedAlerts": "Linked Alerts"
+    },
+    "case": {
+      "title": "Case Overview",
+      "backToAlerts": "Back to Alert Queue",
+      "noCase": "Select an alert to view its case",
+      "reportingUrgency": "Reporting Urgency",
+      "status": {
+        "new_alert": "New Alert",
+        "under_review": "Under Review",
+        "need_more_evidence": "Need More Evidence",
+        "ready_for_supervisor_review": "Pending Supervisor",
+        "closed_false_positive": "Closed False Positive",
+        "ready_for_reporting": "Ready for Reporting"
+      },
+      "urgency": {
+        "normal": "Normal",
+        "priority": "Priority",
+        "immediate": "Immediate"
+      },
+      "keyFindings": "Key Findings",
+      "suggestedTypologies": "Suggested Typologies",
+      "reportingDeadline": "Reporting Deadline",
+      "analystNotes": "Analyst Notes",
+      "toInvestigation": "Open Investigation",
+      "toStr": "Draft STR",
+      "linkedAlerts": "Linked Alerts"
+    },
+    "network": {
+      "title": "Transaction Network",
+      "subtitle": "IBM AML HI-Small Typology Labels — Click nodes to explore",
+      "noCase": "Open a case to highlight its network",
+      "categories": {
+        "normal": "Normal",
+        "suspicious": "Suspicious",
+        "fraud": "Confirmed Fraud"
+      },
+      "typologies": {
+        "all": "All",
+        "fanOut": "Fan-Out",
+        "fanIn": "Fan-In",
+        "cycle": "Cycle"
+      },
+      "checklist": "Investigation Checklist",
+      "nodeDetail": "Account Detail",
+      "riskScore": "Risk Score",
+      "volume": "Volume"
+    },
+    "network": {
+      "title": "Transaction Network",
+      "subtitle": "Typology-aware graph for fan-out, fan-in, and cycle exploration",
+      "noCase": "Open a case to highlight related accounts",
+      "categories": {
+        "normal": "Normal",
+        "suspicious": "Suspicious",
+        "fraud": "Confirmed Fraud"
+      },
+      "typologies": {
+        "all": "All",
+        "fanOut": "Fan-Out",
+        "fanIn": "Fan-In",
+        "cycle": "Cycle"
+      },
+      "checklist": "Investigation Checklist",
+      "nodeDetail": "Account Detail",
+      "riskScore": "Risk Score",
+      "volume": "Volume",
+      "account": "Account",
+      "category": "Category",
+      "typology": "Typology",
+      "emptyState": "Click a node to view account details",
+      "requiredItems": "Required items",
+      "highlighting": "Highlighting {caseId}"
+    },
+    "rag": {
+      "title": "Regulatory Knowledge Base",
+      "subtitle": "反洗钱法 2024 · FATF China 2019 · KPMG AML Analysis · CAMLMAC Report",
+      "placeholder": "Ask about China AML regulations...",
+      "submit": "Search",
+      "suggestedQueries": [
+        "What is the cash reporting threshold under PBOC rules?",
+        "What are the STR filing deadlines?",
+        "Which institutions are covered by the 2024 AML Law?",
+        "What typologies did FATF identify in China's MER 2019?",
+        "What is the penalty for failing to file a suspicious transaction report?",
+        "How is beneficial ownership defined under the 2024 amendments?"
+      ],
+      "pipeline": {
+        "retrieving": "Retrieving relevant regulations",
+        "ranking": "Ranking by relevance",
+        "generating": "Generating answer"
+      },
+      "retrieved": "Retrieved Regulations",
+      "answer": "Answer",
+      "sources": "Sources",
+      "error": "Error retrieving answer. Please try again.",
+      "noResults": "No relevant regulations found. Try different keywords.",
+      "demoNote": "Demo mode — connect ANTHROPIC_API_KEY in Phase 3 for live answers"
+    },
+    "rag": {
+      "title": "Regulatory Knowledge Base",
+      "subtitle": "AML Law 2024, FATF China MER 2019, KPMG analysis, and CAMLMAC reporting guidance",
+      "placeholder": "Ask about China AML regulations...",
+      "submit": "Search",
+      "suggestedQueries": [
+        "What is the cash reporting threshold under PBOC rules?",
+        "What are the STR filing deadlines?",
+        "Which institutions are covered by the 2024 AML Law?",
+        "What typologies did FATF identify in China’s MER 2019?",
+        "What is the penalty for failing to file a suspicious transaction report?",
+        "How is beneficial ownership defined under the 2024 amendments?"
+      ],
+      "pipeline": {
+        "retrieving": "Retrieving relevant regulations",
+        "ranking": "Ranking by relevance",
+        "generating": "Generating answer"
+      },
+      "retrieved": "Retrieved Regulations",
+      "answer": "Answer",
+      "sources": "Sources",
+      "error": "Error retrieving answer. Please try again.",
+      "noResults": "No relevant regulations found. Try different keywords.",
+      "demoNote": "Demo mode: connect ANTHROPIC_API_KEY in Phase 3 for live answers",
+      "demoAnswerTemplate": "[{demoNote}]\n\nMost relevant excerpt from {sourceTitle}, {article}:\n\n\"{text}\""
+    },
+    "str": {
+      "title": "STR Generator",
+      "subtitle": "6-step AI Agent · CAMLMAC Format · claude-sonnet-4-6",
+      "noCase": "Open a case from the Alert Queue to generate an STR",
+      "generate": "Generate STR Draft",
+      "generating": "Generating...",
+      "agentSteps": {
+        "step1": "Extracting case details",
+        "step2": "Analyzing account history",
+        "step3": "Retrieving regulations",
+        "step4": "Classifying typology",
+        "step5": "Assessing urgency",
+        "step6": "Drafting STR"
+      },
+      "report": "Generated Report",
+      "copy": "Copy",
+      "copied": "Copied",
+      "disclaimer": "This output is generated for demonstration purposes only and does not constitute an actual regulatory filing. Do not submit to CAMLMAC.",
+      "demoNote": "Demo mode — connect ANTHROPIC_API_KEY in Phase 3 for live agent"
+    },
+    "str": {
+      "title": "STR Generator",
+      "subtitle": "Six-step AI-assisted CAMLMAC-style drafting flow",
+      "noCase": "Open a case from the Alert Queue to generate an STR",
+      "generate": "Generate STR Draft",
+      "generating": "Generating...",
+      "currentCase": "Current Case",
+      "agentLog": "Agent Execution Log",
+      "placeholder": "Click \"Generate STR Draft\" to begin...",
+      "agentSteps": {
+        "step1": "Extracting case details",
+        "step2": "Reviewing linked alerts",
+        "step3": "Checking regulatory basis",
+        "step4": "Assessing typology",
+        "step5": "Assessing urgency",
+        "step6": "Drafting report"
+      },
+      "report": "Generated Report",
+      "copy": "Copy",
+      "copied": "Copied",
+      "disclaimer": "This output is generated for demonstration purposes only and does not constitute an actual regulatory filing. Do not submit to CAMLMAC.",
+      "demoNote": "Demo mode: live agent drafting is enabled in Phase 3",
+      "template": {
+        "title": "SUSPICIOUS TRANSACTION REPORT (DRAFT)",
+        "demoOnly": "For demonstration purposes only. Do not submit to CAMLMAC.",
+        "institution": "Reporting Institution",
+        "institutionValue": "Demo Bank",
+        "reportDate": "Report Date",
+        "caseId": "Case ID",
+        "subjectSection": "Subject Information",
+        "account": "Account",
+        "accountType": "Account Type",
+        "individual": "Individual",
+        "corporate": "Corporate",
+        "riskLevel": "Risk Level",
+        "transactionSection": "Transaction Summary",
+        "transactionId": "Transaction ID",
+        "transactionDate": "Transaction Date",
+        "amount": "Amount",
+        "transactionType": "Type",
+        "triggeredRules": "Triggered Rules",
+        "activitySection": "Suspicious Activity Description",
+        "suggestedTypologies": "Suggested Typologies",
+        "regulatorySection": "Regulatory Basis",
+        "article31": "- AML Law (2024) Article 31: large-value cash and transfer thresholds trigger reporting obligations.",
+        "article33": "- AML Law (2024) Article 33: suspicious transactions must be reported within five business days, or immediately if urgent.",
+        "urgencySection": "Urgency Assessment",
+        "urgency": "Reporting Urgency",
+        "deadline": "Recommended Deadline",
+        "recommendationSection": "Analyst Recommendation",
+        "recommendationText": "Recommend escalation for supervisor review. Filing urgency: {urgency}. Target deadline: {deadline}.",
+        "none": "None",
+        "notAvailable": "Not available",
+        "footer": "Generated by AML Sentinel mock mode. Advisory only."
+      }
+    }
+  }
+}

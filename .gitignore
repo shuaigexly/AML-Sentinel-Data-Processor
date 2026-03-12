@@ -1,0 +1,38 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next.js build output
+.next/
+out/
+
+# env files
+.env
+.env*.local
+.env.development
+.env.production
+
+# vercel
+.vercel
+
+# database
+*.db
+*.sqlite
+prisma/*.db
+
+# data (large raw datasets)
+data/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# os
+.DS_Store
+Thumbs.db
+
+# accidental artifact
+nul
